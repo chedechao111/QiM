@@ -1,0 +1,1554 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>P0001</key>
+	<string>空气流量计(HFM)供电电压故障</string>
+	<key>P0002</key>
+	<string>空气流量计(HFM)漂移修正检测:载荷时的修正值和怠速修正值偏差超出限值</string>
+	<key>P0003</key>
+	<string>空气流量计(HFM)漂移修正检测:怠速时的修正量超出限值,并且载荷时的修正值低于限值</string>
+	<key>P0004</key>
+	<string>空气流量计(HFM)怠速工况偏移修正量高于上限值</string>
+	<key>P0005</key>
+	<string>空气流量计(HFM)负荷工况偏移修正量高于上限值</string>
+	<key>P0006</key>
+	<string>空气流量计(HFM)偏差值高于上限值</string>
+	<key>P0007</key>
+	<string>空气流量计(HFM)偏差值低于下限值</string>
+	<key>P0008</key>
+	<string>空气流量计(HFM)硬件故障</string>
+	<key>P0009</key>
+	<string>空气流量计(HFM)周期信号高于上限</string>
+	<key>P000A</key>
+	<string>空气流量计(HFM)周期信号低于下限</string>
+	<key>P000B</key>
+	<string>空调压缩机线路开路</string>
+	<key>P000C</key>
+	<string>电控单元(ECU)内空调压缩机驱动芯片过热</string>
+	<key>P000D</key>
+	<string>可变排量空调压缩机驱动电路开路</string>
+	<key>P000E</key>
+	<string>可变排量空调压缩机驱动芯片过热</string>
+	<key>P000F</key>
+	<string>可变排量空调压缩机驱动电路对电源短路</string>
+	<key>P0010</key>
+	<string>可变排量空调压缩机驱动电路对地短路</string>
+	<key>P0011</key>
+	<string>空调压缩机驱动电路对电源短路</string>
+	<key>P0012</key>
+	<string>空调压缩机驱动电路对地短路</string>
+	<key>P0013</key>
+	<string>空调开关CAN信号不可信</string>
+	<key>P0014</key>
+	<string>空调开关CAN信号接收超时(在规定的时间内未接收到空调开关CAN消息)</string>
+	<key>P0015</key>
+	<string>再生模式下空气设定量与实际新鲜进气量的差值高于上限值(新鲜进气量过小)</string>
+	<key>P0016</key>
+	<string>再生模式下空气设定量与实际新鲜进气量的差值低过下限值(新鲜进气量过大)</string>
+	<key>P0017</key>
+	<string>空气设定量与实际新鲜进气量的差值高于上限值(新鲜进气量过小)</string>
+	<key>P0018</key>
+	<string>空气设定量与实际新鲜进气量的差值低于下限值(新鲜进气量过大)</string>
+	<key>P001C</key>
+	<string>进气加热格栅在开启期间电池电压信号超过限值</string>
+	<key>P001D</key>
+	<string>进气加热格栅在开启期间电池电压信号低于限值</string>
+	<key>P001E</key>
+	<string>进气加热格栅加热开关常吸合</string>
+	<key>P001F</key>
+	<string>系统冷启动时温度传感器可信性故障(组合0)</string>
+	<key>P0020</key>
+	<string>系统冷启动时温度传感器可信性故障(组合1)</string>
+	<key>P0021</key>
+	<string>系统冷启动时温度传感器可信性故障(组合2)</string>
+	<key>P0022</key>
+	<string>系统冷启动时温度传感器可信性故障(组合3)</string>
+	<key>P0023</key>
+	<string>系统冷启动时温度传感器可信性故障(组合4)</string>
+	<key>P0024</key>
+	<string>系统冷启动时温度传感器可信性故障</string>
+	<key>P0025</key>
+	<string>电控单元(ECU)内部主继电器0短路到电源</string>
+	<key>P0026</key>
+	<string>电控单元(ECU)内部主继电器1短路到电源</string>
+	<key>P0027</key>
+	<string>电控单元(ECU)内部主继电器2短路到电源</string>
+	<key>P0028</key>
+	<string>电控单元(ECU)内部主继电器0短路到地</string>
+	<key>P0029</key>
+	<string>电控单元(ECU)内部主继电器1短路到地</string>
+	<key>P002A</key>
+	<string>电控单元(ECU)内部主继电器2短路到地</string>
+	<key>P002B</key>
+	<string>蓄电池电压过高</string>
+	<key>P002C</key>
+	<string>蓄电池电压过低</string>
+	<key>P002D</key>
+	<string>电控单元(ECU)内部蓄电池电压信号过高</string>
+	<key>P002E</key>
+	<string>电控单元(ECU)内部蓄电池电压信号过低</string>
+	<key>P02D0</key>
+	<string>刹车信号不合理导致的巡航功能故障</string>
+	<key>P02D1</key>
+	<string>无有效刹车信号导致的巡航功能故障</string>
+	<key>P002F</key>
+	<string>刹车信号不可信,主刹信号和副刹信号不同时变化</string>
+	<key>P02D2</key>
+	<string>刹车(单)信号合理性故障</string>
+	<key>P0030</key>
+	<string>刹车信号故障(CAN信号接收超时)</string>
+	<key>P0031</key>
+	<string>CAN A被动故障</string>
+	<key>P0032</key>
+	<string>CAN B被动故障</string>
+	<key>P0033</key>
+	<string>CAN C被动故障</string>
+	<key>P0034</key>
+	<string>CAN D被动故障</string>
+	<key>P0035</key>
+	<string>CAN A通讯中断</string>
+	<key>P0036</key>
+	<string>CAN B通讯中断</string>
+	<key>P0037</key>
+	<string>CAN C通讯中断</string>
+	<key>P0038</key>
+	<string>CAN D通讯中断</string>
+	<key>P0039</key>
+	<string>水温传感器绝对值合理性检测故障(水温在一定时间内未达到门槛值)</string>
+	<key>P003A</key>
+	<string>水温传感器动态值合理性检测故障(水温在一定时间内上升值未达到门槛值)</string>
+	<key>P003B</key>
+	<string>水温CAN帧接收超时</string>
+	<key>P003C</key>
+	<string>水温传感器电压高于上限值</string>
+	<key>P003D</key>
+	<string>水温传感器电压低于下限值</string>
+	<key>P003E</key>
+	<string>水温传感器可信性故障</string>
+	<key>P003F</key>
+	<string>离合器信号不可信</string>
+	<key>P0040</key>
+	<string>离合器信号故障(CAN信号出错)</string>
+	<key>P0041</key>
+	<string>增压器保护调用了扭矩限制</string>
+	<key>P0042</key>
+	<string>发动机保护调用了扭矩限制</string>
+	<key>P0043</key>
+	<string>喷射系统调用了扭矩限制</string>
+	<key>P0044</key>
+	<string>发动机扭矩限制被调用</string>
+	<key>P0045</key>
+	<string>发动机制动调用了扭矩限制</string>
+	<key>P0046</key>
+	<string>颗粒捕集器调用了扭矩限制</string>
+	<key>P0047</key>
+	<string>性能限制功能调用了扭矩限制</string>
+	<key>P0048</key>
+	<string>烟度限制功能调用了扭矩限制</string>
+	<key>P0049</key>
+	<string>ACK CAN应答信号发送超时(即信号丢失)</string>
+	<key>P004A</key>
+	<string>外部环境(AmbCon) CAN信号帧传输超时(即信号丢失)</string>
+	<key>P0303</key>
+	<string>安全气囊模块(ABM)CAN接收帧信号长度出错</string>
+	<key>P0304</key>
+	<string>安全气囊模块(ABM)CAN信号接收超时(即信号丢失)</string>
+	<key>P004B</key>
+	<string>上游氮氧传感器CAN信号帧长度出错</string>
+	<key>P004C</key>
+	<string>上游氮氧传感器 CAN信号接收超时(即信号丢失)</string>
+	<key>P004D</key>
+	<string>上游氮氧传感器CAN信号修正帧1 接收超时(即信号丢失)</string>
+	<key>P004E</key>
+	<string>上游氮氧传感器CAN信号修正帧2接收超时(即信号丢失)</string>
+	<key>P004F</key>
+	<string>下游氮氧传感器CAN信号帧长度出错</string>
+	<key>P0050</key>
+	<string>下游氮氧传感器 CAN信号接收超时(即信号丢失)</string>
+	<key>P0051</key>
+	<string>下游氮氧传感器CAN信号修正帧1 接收超时(即信号丢失)</string>
+	<key>P0052</key>
+	<string>下游氮氧传感器CAN信号修正帧2接收超时(即信号丢失)</string>
+	<key>P0305</key>
+	<string>DD CAN接收帧信号长度出错</string>
+	<key>P0306</key>
+	<string>DD CAN信号接收超时(即信号丢失)</string>
+	<key>P0307</key>
+	<string>DispMtr1 CAN接收帧信号长度出错</string>
+	<key>P0308</key>
+	<string>DispMtr1 CAN信号接收超时(即信号丢失)</string>
+	<key>P0053</key>
+	<string>DM19Ds CAN应答信号接收超时(即信号丢失)</string>
+	<key>P02D3</key>
+	<string>DM19Ds CAN信号接收超时(即信号丢失)</string>
+	<key>P02D4</key>
+	<string>DM19Ds CAN信号接收超时(即信号丢失)</string>
+	<key>P02D5</key>
+	<string>DM19Ds CAN信息超时故障</string>
+	<key>P0056</key>
+	<string>DM19Us CAN应答信号接收超时(即信号丢失)</string>
+	<key>P02D6</key>
+	<string>DM19Us CAN信号接收超时(即信号丢失)</string>
+	<key>P02D7</key>
+	<string>DM19Us CAN信号接收超时(即信号丢失)</string>
+	<key>P02D8</key>
+	<string>DM19Us CAN信息超时故障</string>
+	<key>P0059</key>
+	<string>尿素喷射控制器(DCU) CAN信号接收超时(即信号丢失)</string>
+	<key>P005A</key>
+	<string>尿素喷射控制器(DCU) CAN信号接收超时(即信号丢失)</string>
+	<key>P005B</key>
+	<string>OBD相关故障用于尿素喷射控制单元(DCU)激活扭矩限制</string>
+	<key>P005C</key>
+	<string>OBD相关故障用于尿素喷射控制单元(DCU)激活扭矩限制</string>
+	<key>P005D</key>
+	<string>OBD相关故障用于尿素喷射控制单元(DCU)激活扭矩限制</string>
+	<key>P005E</key>
+	<string>OBD相关故障用于尿素喷射控制单元(DCU)激活扭矩限制</string>
+	<key>P005F</key>
+	<string>OBD相关故障用于尿素喷射控制单元(DCU)激活扭矩限制</string>
+	<key>P0060</key>
+	<string>DM1DCU CAN信号接收超时(即信号丢失)</string>
+	<key>P02D9</key>
+	<string>EBC1 CAN接收帧信号长度出错</string>
+	<key>P0062</key>
+	<string>EBC1 CAN信号接收超时(即信号丢失)</string>
+	<key>P0063</key>
+	<string>EEC1 CAN信号传输超时(即信号丢失)</string>
+	<key>P0064</key>
+	<string>EEC2 CAN信号传输超时(即信号丢失)</string>
+	<key>P0065</key>
+	<string>电控单元(ECU)与氮氧传感器之间的 CAN通讯中断</string>
+	<key>P0066</key>
+	<string>EFL_P1 CAN信号接收超时(即信号丢失)</string>
+	<key>P0067</key>
+	<string>EBC(电子制动控制器)要求关闭发动机(非具体故障,只是外部请求指示)</string>
+	<key>P0068</key>
+	<string>EngTemp CAN信号传输超时(即信号丢失)</string>
+	<key>P0069</key>
+	<string>ERC1 CAN信号传输超时(即信号丢失)</string>
+	<key>P02DA</key>
+	<string>ETC1 CAN接收帧信号长度出错</string>
+	<key>P006A</key>
+	<string>ETC1 CAN信号接收超时(即信号丢失)</string>
+	<key>P02DB</key>
+	<string>ETC2 CAN接收帧信号长度出错</string>
+	<key>P006B</key>
+	<string>ETC2 CAN信号接收超时(即信号丢失)</string>
+	<key>P006C</key>
+	<string>FIEco CAN信号传输超时(即信号丢失)</string>
+	<key>P0309</key>
+	<string>GPS2 CAN接收帧信号长度出错</string>
+	<key>P030A</key>
+	<string>GPS2 CAN接收帧信号1出错</string>
+	<key>P030B</key>
+	<string>GPS2 CAN接收帧信号2出错</string>
+	<key>P030C</key>
+	<string>GPS2 CAN信号接收超时(即信号丢失)</string>
+	<key>P006D</key>
+	<string>INCON CAN信号传输超时(即信号丢失)</string>
+	<key>P02DC</key>
+	<string>FIC CAN信号传输超时(即信号丢失)</string>
+	<key>P006E</key>
+	<string>NOxCorGnCat2Ds CAN信息内容超出SAE规定合理范围</string>
+	<key>P006F</key>
+	<string>NOxCorGnDs CAN信息内容超出SAE规定合理范围</string>
+	<key>P0070</key>
+	<string>NOxCorOfsCat2Ds CAN信息内容超出SAE规定合理范围</string>
+	<key>P0071</key>
+	<string>NOxCorOfsDs CAN信息内容超出SAE规定合理范围</string>
+	<key>P0072</key>
+	<string>NOxCorPresLamCat2Ds CAN信息内容超出SAE规定合理范围</string>
+	<key>P0073</key>
+	<string>NOxCorPresLamDs CAN信息内容超出SAE规定合理范围</string>
+	<key>P0074</key>
+	<string>NOxCorPresNOxCat2Ds CAN信息内容超出SAE规定合理范围</string>
+	<key>P0075</key>
+	<string>NOxCorPresNOxDs CAN信息内容超出SAE规定合理范围</string>
+	<key>P0076</key>
+	<string>NOxHtrRatCat2Ds CAN信息内容超出SAE规定合理范围</string>
+	<key>P0077</key>
+	<string>NOxHtrRatDs CAN信息内容超出SAE规定合理范围</string>
+	<key>P0078</key>
+	<string>NOxNH3CorCat2Ds CAN信息内容超出SAE规定合理范围</string>
+	<key>P0079</key>
+	<string>NOxNH3CorDs CAN信息内容超出SAE规定合理范围</string>
+	<key>P007A</key>
+	<string>NOxNO2CorCat2Ds CAN信息内容超出SAE规定合理范围</string>
+	<key>P007B</key>
+	<string>NOxNO2CorDs CAN信息内容超出SAE规定合理范围</string>
+	<key>P007C</key>
+	<string>NOxNoCat2Ds CAN信息内容超出SAE规定合理范围</string>
+	<key>P007D</key>
+	<string>NOxNoMCatDs CAN信息内容超出SAE规定合理范围</string>
+	<key>P007E</key>
+	<string>NOxSenDsRxBAM CAN信号接收超时(即信号丢失)</string>
+	<key>P007F</key>
+	<string>NOxSenUsRxBAM CAN信号接收超时(即信号丢失)</string>
+	<key>P0080</key>
+	<string>O2NoCat2Ds CAN信息内容超出SAE规定合理范围</string>
+	<key>P0081</key>
+	<string>O2NoMCatDs CAN信息内容超出SAE规定合理范围</string>
+	<key>P030D</key>
+	<string>PROSCR1 CAN信号接收超时(即信号丢失)</string>
+	<key>P030E</key>
+	<string>PROSCR2 CAN信号接收超时(即信号丢失)</string>
+	<key>P02DD</key>
+	<string>BAM CAN信号接收超时(即信号丢失)</string>
+	<key>P02DE</key>
+	<string>CAN CAN信号接收超时(即信号丢失)</string>
+	<key>P02DF</key>
+	<string>RxCCVS CAN接收帧信号长度出错</string>
+	<key>P0082</key>
+	<string>RxCCVS CAN信号接收超时(即信号丢失)</string>
+	<key>P0083</key>
+	<string>SensNOxNoMCatDs CAN信息内容超出SAE规定合理范围</string>
+	<key>P0084</key>
+	<string>SensNOxStabNoCat2Ds CAN信息内容超出SAE规定合理范围</string>
+	<key>P0085</key>
+	<string>SensO2NoMCatDs CAN信息内容超出SAE规定合理范围</string>
+	<key>P0086</key>
+	<string>SensO2StabNoCat2Ds CAN信息内容超出SAE规定合理范围</string>
+	<key>P0087</key>
+	<string>SensPwrNoMCatDs CAN信息内容超出SAE规定合理范围</string>
+	<key>P0088</key>
+	<string>SensPwrRngNoCat2Ds CAN信息内容超出SAE规定合理范围</string>
+	<key>P0089</key>
+	<string>SensTempNoCat2Ds CAN信息内容超出SAE规定合理范围</string>
+	<key>P008A</key>
+	<string>SensTempNoMCatDs CAN信息内容超出SAE规定合理范围</string>
+	<key>P008B</key>
+	<string>ShutDwn CAN信号传输超时(即信号丢失)</string>
+	<key>P02E0</key>
+	<string>TCO1 CAN接收帧信号长度出错</string>
+	<key>P008C</key>
+	<string>TCO1 CAN信号接收超时(即信号丢失)</string>
+	<key>P008D</key>
+	<string>电控单元(ECU)与CAN仪表之间的通讯断开</string>
+	<key>P02E1</key>
+	<string>TimeDate CAN接收帧信号长度出错</string>
+	<key>P008E</key>
+	<string>TimeDate CAN信号接收超时(即信号丢失)</string>
+	<key>P008F</key>
+	<string>TSC1AE信息帧主动丢失故障</string>
+	<key>P0090</key>
+	<string>TSC1AE信息帧被动丢失故障</string>
+	<key>P0091</key>
+	<string>TSC1AR CAN信号主动接收超时(即信号丢失)</string>
+	<key>P0092</key>
+	<string>TSC1AR CAN信号被动接收超时(即信号丢失)</string>
+	<key>P0093</key>
+	<string>TSC1DE信息帧主动丢失故障</string>
+	<key>P0094</key>
+	<string>TSC1DE信息帧被动丢失故障</string>
+	<key>P0095</key>
+	<string>TSC1DR CAN信号主动接收超时(即信号丢失)</string>
+	<key>P0096</key>
+	<string>TSC1DR CAN信号被动接收超时(即信号丢失)</string>
+	<key>P0097</key>
+	<string>TSC1PE信息帧主动丢失故障</string>
+	<key>P0098</key>
+	<string>TSC1PE信息帧被动丢失故障</string>
+	<key>P0099</key>
+	<string>TSC1TE信息帧主动丢失故障</string>
+	<key>P009A</key>
+	<string>TSC1TE信息帧被动丢失故障</string>
+	<key>P009B</key>
+	<string>TSC1TR CAN信号主动接收超时(即信号丢失)</string>
+	<key>P009C</key>
+	<string>TSC1TR CAN信号被动接收超时(即信号丢失)</string>
+	<key>P009D</key>
+	<string>TSC1VE信息帧主动丢失故障</string>
+	<key>P009E</key>
+	<string>TSC1VE信息帧被动丢失故障</string>
+	<key>P009F</key>
+	<string>TSC1VR CAN信号主动接收超时(即信号丢失)</string>
+	<key>P00A0</key>
+	<string>TSC1VR CAN信号被动接收超时(即信号丢失)</string>
+	<key>P02E2</key>
+	<string>TSC1AE CAN接收帧信号长度出错</string>
+	<key>P00A1</key>
+	<string>TSC1AE CAN信号接收超时(即信号丢失)</string>
+	<key>P02E3</key>
+	<string>TSC1AR CAN接收帧信号长度出错</string>
+	<key>P00A2</key>
+	<string>TSC1AR CAN信号接收超时(即信号丢失)</string>
+	<key>P02E4</key>
+	<string>TSC1DE CAN接收帧信号长度出错</string>
+	<key>P00A3</key>
+	<string>TSC1DE CAN信号接收超时(即信号丢失)</string>
+	<key>P02E5</key>
+	<string>TSC1DR CAN接收帧信号长度出错</string>
+	<key>P00A4</key>
+	<string>TSC1DR CAN信号接收超时(即信号丢失)</string>
+	<key>P02E6</key>
+	<string>TSC1PE CAN接收帧信号长度出错</string>
+	<key>P00A5</key>
+	<string>TSC1PE CAN信号接收超时(即信号丢失)</string>
+	<key>P02E7</key>
+	<string>TSC1TE CAN接收帧信号长度出错</string>
+	<key>P00A6</key>
+	<string>TSC1TE CAN信号接收超时(即信号丢失)</string>
+	<key>P02E8</key>
+	<string>TSC1TR CAN接收帧信号长度出错</string>
+	<key>P00A7</key>
+	<string>TSC1TR CAN信号接收超时(即信号丢失)</string>
+	<key>P02E9</key>
+	<string>TSC1VE CAN接收帧信号长度出错</string>
+	<key>P00A8</key>
+	<string>TSC1VE CAN信号接收超时(即信号丢失)</string>
+	<key>P02EA</key>
+	<string>TSC1VR CAN接收帧信号长度出错</string>
+	<key>P00A9</key>
+	<string>TSC1VR CAN信号接收超时(即信号丢失)</string>
+	<key>P00AA</key>
+	<string>TxCCVS CAN信号传输超时(即信号丢失)</string>
+	<key>P00AB</key>
+	<string>TxPGNRQGlb CAN信号接收超时(即信号丢失)</string>
+	<key>P00AC</key>
+	<string>TxPGNRQ CAN信号接收超时(即信号丢失)</string>
+	<key>P00AD</key>
+	<string>UAA1 CAN信号接收超时(即信号丢失)</string>
+	<key>P00AE</key>
+	<string>UAA2 CAN信号接收超时(即信号丢失)</string>
+	<key>P00AF</key>
+	<string>UAA3 CAN信号接收超时(即信号丢失)</string>
+	<key>P00B0</key>
+	<string>UAA4 CAN信号接收超时(即信号丢失)</string>
+	<key>P00B1</key>
+	<string>UAA5 CAN信号接收超时(即信号丢失)</string>
+	<key>P00B2</key>
+	<string>UAA6 CAN信号接收超时(即信号丢失)</string>
+	<key>P00B3</key>
+	<string>UAA7 CAN信号接收超时(即信号丢失)</string>
+	<key>P00B4</key>
+	<string>UAA8 CAN信号接收超时(即信号丢失)</string>
+	<key>P00B5</key>
+	<string>VD CAN信号传输超时(即信号丢失)</string>
+	<key>P00B6</key>
+	<string>VEP1 CAN信号传输超时(即信号丢失)</string>
+	<key>P00B7</key>
+	<string>WFI CAN信号传输超时(即信号丢失)</string>
+	<key>P00B8</key>
+	<string>整车性能限制功能激活</string>
+	<key>P00B9</key>
+	<string>巡航控制键信号不合理</string>
+	<key>P00BA</key>
+	<string>电控单元(ECU)内部芯片Cy146通讯故障</string>
+	<key>P00BB</key>
+	<string>电控单元(ECU)内部芯片Cy320通讯故障</string>
+	<key>P00BC</key>
+	<string>电池电压过高导致相关部件停止工作</string>
+	<key>P00BD</key>
+	<string>电池电压过低导致相关部件停止工作</string>
+	<key>P00BE</key>
+	<string>发动机制动不合理</string>
+	<key>P00BF</key>
+	<string>发动机舱停机按钮被长时间按下</string>
+	<key>P00C0</key>
+	<string>发动机舱启动按钮被长时间按下</string>
+	<key>P00C1</key>
+	<string>发动机缸内制动阀(ECR)驱动电路开路</string>
+	<key>P00C2</key>
+	<string>电控单元(ECU)内发动机缸内制动阀(ECR)驱动芯片过热</string>
+	<key>P00C3</key>
+	<string>发动机缸内制动阀(ECR)驱动电路对电源短路</string>
+	<key>P00C4</key>
+	<string>发动机缸内制动阀(ECR)驱动电路对地短路</string>
+	<key>P00C5</key>
+	<string>电控单元(ECU)内存储单元EEPROM区擦除故障</string>
+	<key>P00C6</key>
+	<string>电控单元(ECU)内存储单元EEPROM区读取故障</string>
+	<key>P00C7</key>
+	<string>电控单元(ECU)内存储单元EEPROM区编写故障</string>
+	<key>P00C8</key>
+	<string>废气再循环(EGR)阀工作电流受限</string>
+	<key>P00C9</key>
+	<string>废气再循环(EGR)阀全关位置的自学习值超出限值</string>
+	<key>P00CA</key>
+	<string>废气再循环(EGR)阀全开位置的自学习值超出阀的机械点</string>
+	<key>P00CB</key>
+	<string>废气再循环(EGR)阀机械关闭位置的自学习值偏移超出阀的机械点</string>
+	<key>P00CC</key>
+	<string>废气再循环(EGR)阀控制偏差超过限值(在冷启动时由于温度过低导致)</string>
+	<key>P00CD</key>
+	<string>废气再循环(EGR)阀开度设定值与实际值的差值高于上限值(正偏差过大)</string>
+	<key>P00CE</key>
+	<string>废气再循环(EGR)阀开度设定值与实际值的差值差值低于下限值(负偏差过大)</string>
+	<key>P00CF</key>
+	<string>废气再循环(EGR)阀卡在关闭状态</string>
+	<key>P00D0</key>
+	<string>废气再循环(EGR)阀卡在开启状态</string>
+	<key>P00D1</key>
+	<string>自学习过程中,废气再循环(EGR)阀全关位置的自学习值与本轮第一次的值偏移过大</string>
+	<key>P00D2</key>
+	<string>自学习过程中,废气再循环(EGR)阀全开位置的自学习值与本轮第一次的值偏移过大</string>
+	<key>P00D3</key>
+	<string>废气再循环(EGR)阀驱动电路开路</string>
+	<key>P00D4</key>
+	<string>电控单元(ECU)内废气再循环(EGR)阀驱动芯片过热</string>
+	<key>P00D5</key>
+	<string>废气再循环(EGR)阀位置传感器物理值超过上限</string>
+	<key>P00D6</key>
+	<string>废气再循环(EGR)阀位置传感器物理值低于下限</string>
+	<key>P00D7</key>
+	<string>废气再循环(EGR)阀驱动电路对电源短路</string>
+	<key>P00D8</key>
+	<string>废气再循环(EGR)阀驱动电路对地短路</string>
+	<key>P00D9</key>
+	<string>自学习过程中,废气再循环(EGR)阀全关位置的值短时间偏移超过限值</string>
+	<key>P00DA</key>
+	<string>自学习过程中,废气再循环(EGR)阀全开位置的值短时间偏移超过限值</string>
+	<key>P00DB</key>
+	<string>废气再循环(EGR)阀位置传感器电压高于上限值</string>
+	<key>P00DC</key>
+	<string>废气再循环(EGR)阀位置传感器电压低于下限值</string>
+	<key>P00DD</key>
+	<string>废气再循环(EGR)阀驱动电路接触不良</string>
+	<key>P00DE</key>
+	<string>喷油切断请求指示</string>
+	<key>P00DF</key>
+	<string>发动机超速指示</string>
+	<key>P00E0</key>
+	<string>双质量飞轮的转速保护指示</string>
+	<key>P00E1</key>
+	<string>转速输出驱动电路开路</string>
+	<key>P00E2</key>
+	<string>电控单元(ECU)内转速输出驱动芯片过热</string>
+	<key>P00E3</key>
+	<string>转速输出驱动电路对电源短路</string>
+	<key>P00E4</key>
+	<string>转速输出驱动电路对地短路</string>
+	<key>P00E5</key>
+	<string>来自CAN总线的大气压力信号故障</string>
+	<key>P00E6</key>
+	<string>大气压力传感器电压信号高于上限</string>
+	<key>P00E7</key>
+	<string>大气压力传感器电压信号低于下限</string>
+	<key>P00E8</key>
+	<string>环境温度传感器信号不可信</string>
+	<key>P00E9</key>
+	<string>环境温度传感器电压信号高于上限</string>
+	<key>P00EA</key>
+	<string>环境温度传感器电压信号低于下限</string>
+	<key>P00EB</key>
+	<string>凸轮轴信号有干扰或信号丢失故障</string>
+	<key>P00EC</key>
+	<string>没有检测到凸轮轴信号</string>
+	<key>P00ED</key>
+	<string>凸轮轴信号与曲轴信号偏差过大</string>
+	<key>P00EE</key>
+	<string>曲轴信号有干扰或信号丢失故障</string>
+	<key>P00EF</key>
+	<string>没有检测到曲轴信号</string>
+	<key>P00F0</key>
+	<string>排气制动阀驱动电路开路</string>
+	<key>P00F1</key>
+	<string>电控单元(ECU)内排气制动阀驱动芯片过热</string>
+	<key>P00F2</key>
+	<string>排气制动阀驱动电路对电源短路</string>
+	<key>P00F3</key>
+	<string>排气制动阀驱动电路对地短路</string>
+	<key>P00F4</key>
+	<string>排气制动阀状态反馈信号线信号在上电自检过程中故障</string>
+	<key>P00F5</key>
+	<string>排气制动阀状态反馈信号线信号在正常运行过程中故障</string>
+	<key>P00F6</key>
+	<string>电控单元(ECU)内数模转换器(ADC)自检失败</string>
+	<key>P00F7</key>
+	<string>开关型低速风扇控制电路开路</string>
+	<key>P00F8</key>
+	<string>开关型高速风扇控制电路开路</string>
+	<key>P00F9</key>
+	<string>电控单元(ECU)内开关型低速风扇控制驱动芯片过热</string>
+	<key>P00FA</key>
+	<string>电控单元(ECU)内开关型高速风扇控制驱动芯片过热</string>
+	<key>P00FB</key>
+	<string>开关型低速风扇控制电路对电源短路</string>
+	<key>P00FC</key>
+	<string>开关型高速风扇控制电路对电源短路</string>
+	<key>P00FD</key>
+	<string>开关型低速风扇控制电路对地短路</string>
+	<key>P00FE</key>
+	<string>开关型高速风扇控制电路对地短路</string>
+	<key>P00FF</key>
+	<string>无级型风扇驱动电路开路</string>
+	<key>P0100</key>
+	<string>电控单元(ECU)内无级型风扇驱动芯片过热</string>
+	<key>P0101</key>
+	<string>无级型风扇驱动电路对电源短路</string>
+	<key>P0102</key>
+	<string>无级型风扇驱动电路对地短路</string>
+	<key>P0103</key>
+	<string>风扇转速传感器(频率信号)周期过长</string>
+	<key>P0104</key>
+	<string>风扇转速太高</string>
+	<key>P0105</key>
+	<string>风扇转速太低</string>
+	<key>P0106</key>
+	<string>发火顺序第1缸油量修正(FBC)超限值</string>
+	<key>P0107</key>
+	<string>发火顺序第2缸油量修正(FBC)超限值</string>
+	<key>P0108</key>
+	<string>发火顺序第3缸油量修正(FBC)超限值</string>
+	<key>P0109</key>
+	<string>发火顺序第4缸油量修正(FBC)超限值</string>
+	<key>P010A</key>
+	<string>发火顺序第5缸油量修正(FBC)超限值</string>
+	<key>P010B</key>
+	<string>发火顺序第6缸油量修正(FBC)超限值</string>
+	<key>P010C</key>
+	<string>油滤堵塞传感器电压信号过高</string>
+	<key>P010D</key>
+	<string>油滤堵塞传感器电压信号过低</string>
+	<key>P010E</key>
+	<string>油滤堵塞故障</string>
+	<key>P010F</key>
+	<string>油滤堵塞传感器信号不合理</string>
+	<key>P0110</key>
+	<string>燃油滤清加热器驱动电路开路</string>
+	<key>P0111</key>
+	<string>电控单元(ECU)燃油滤清加热器驱动芯片过热</string>
+	<key>P0112</key>
+	<string>燃油滤清加热器驱动电路对电源短路</string>
+	<key>P0113</key>
+	<string>燃油滤清加热器驱动电路对地短路</string>
+	<key>P0114</key>
+	<string>油中含水传感器电压高于上限</string>
+	<key>P0115</key>
+	<string>油中含水传感器电压低于下限</string>
+	<key>P030F</key>
+	<string>来自CAN总线的燃油液位信号故障</string>
+	<key>P0310</key>
+	<string>燃油液位传感器电压信号高于上限</string>
+	<key>P0311</key>
+	<string>燃油液位传感器电压信号低于下限</string>
+	<key>P0116</key>
+	<string>油中含水故障 </string>
+	<key>P0117</key>
+	<string>燃油液位过低</string>
+	<key>P0118</key>
+	<string>燃油温度传感器电压信号高于上限</string>
+	<key>P0119</key>
+	<string>燃油温度传感器电压信号低于下限</string>
+	<key>P011A</key>
+	<string>燃油温度传感器信号不可信</string>
+	<key>P011B</key>
+	<string>来自CAN总线的变速箱信号故障</string>
+	<key>P011C</key>
+	<string>预热指示灯驱动电路开路</string>
+	<key>P011D</key>
+	<string>电控单元(ECU)内预热指示灯驱动芯片过热</string>
+	<key>P011E</key>
+	<string>预热指示灯驱动电路对电源短路</string>
+	<key>P011F</key>
+	<string>预热指示灯驱动电路对地短路</string>
+	<key>P0120</key>
+	<string>进气加热格栅驱动电路开路</string>
+	<key>P0121</key>
+	<string>电控单元(ECU)内进气加热格栅驱动芯片过热</string>
+	<key>P0122</key>
+	<string>进气加热格栅驱动电路对电源短路</string>
+	<key>P0123</key>
+	<string>进气加热格栅驱动电路对地短路</string>
+	<key>P0124</key>
+	<string>喷油器喷射次数被电控单元(ECU)充电模块能力限制指示</string>
+	<key>P0125</key>
+	<string>喷油器喷射次数被高压油泵油量平衡限制指示</string>
+	<key>P0126</key>
+	<string>喷油器喷射次数被系统限制指示</string>
+	<key>P0127</key>
+	<string>喷油器喷射次数被运行时间限制指示</string>
+	<key>P0128</key>
+	<string>发动机启动失败</string>
+	<key>P0129</key>
+	<string>轨压过低(无法达到喷油器最小开启压力)</string>
+	<key>P012A</key>
+	<string>发火顺序第1缸缺少喷油器油量修正(IQA)码</string>
+	<key>P012B</key>
+	<string>发火顺序第2缸缺少喷油器油量修正(IQA)码</string>
+	<key>P012C</key>
+	<string>发火顺序第3缸缺少喷油器油量修正(IQA)码</string>
+	<key>P012D</key>
+	<string>发火顺序第4缸缺少喷油器油量修正(IQA)码</string>
+	<key>P012E</key>
+	<string>发火顺序第5缸缺少喷油器油量修正(IQA)码</string>
+	<key>P012F</key>
+	<string>发火顺序第6缸缺少喷油器油量修正(IQA)码</string>
+	<key>P0130</key>
+	<string>喷油控制模块1(线束)短路故障</string>
+	<key>P0131</key>
+	<string>喷油控制模块2(线束)短路故障</string>
+	<key>P0132</key>
+	<string>电控单元(ECU)内喷油器驱动芯片(CY33X)故障</string>
+	<key>P0133</key>
+	<string>发火顺序第1缸喷油器驱动电路开路</string>
+	<key>P0134</key>
+	<string>发火顺序第2缸喷油器驱动电路开路</string>
+	<key>P0135</key>
+	<string>发火顺序第3缸喷油器驱动电路开路</string>
+	<key>P0136</key>
+	<string>发火顺序第4缸喷油器驱动电路开路</string>
+	<key>P0137</key>
+	<string>发火顺序第5缸喷油器驱动电路开路</string>
+	<key>P0138</key>
+	<string>发火顺序第6缸喷油器驱动电路开路</string>
+	<key>P0139</key>
+	<string>发火顺序第1缸喷油器驱动电路特殊故障</string>
+	<key>P013A</key>
+	<string>发火顺序第2缸喷油器驱动电路特殊故障</string>
+	<key>P013B</key>
+	<string>发火顺序第3缸喷油器驱动电路特殊故障</string>
+	<key>P013C</key>
+	<string>发火顺序第4缸喷油器驱动电路特殊故障</string>
+	<key>P013D</key>
+	<string>发火顺序第5缸喷油器驱动电路特殊故障</string>
+	<key>P013E</key>
+	<string>发火顺序第6缸喷油器驱动电路特殊故障</string>
+	<key>P013F</key>
+	<string>发火顺序第1缸喷油器线束短路(高端或低端对电源或地短路)</string>
+	<key>P0140</key>
+	<string>发火顺序第2缸喷油器线束短路(高端或低端对电源或地短路)</string>
+	<key>P0141</key>
+	<string>发火顺序第3缸喷油器线束短路(高端或低端对电源或地短路)</string>
+	<key>P0142</key>
+	<string>发火顺序第4缸喷油器线束短路(高端或低端对电源或地短路)</string>
+	<key>P0143</key>
+	<string>发火顺序第5缸喷油器线束短路(高端或低端对电源或地短路)</string>
+	<key>P0144</key>
+	<string>发火顺序第6缸喷油器线束短路(高端或低端对电源或地短路)</string>
+	<key>P0145</key>
+	<string>发火顺序第1缸线束低端对高端短路</string>
+	<key>P0146</key>
+	<string>发火顺序第2缸线束低端对高端短路</string>
+	<key>P0147</key>
+	<string>发火顺序第3缸线束低端对高端短路</string>
+	<key>P0148</key>
+	<string>发火顺序第4缸线束低端对高端短路</string>
+	<key>P0149</key>
+	<string>发火顺序第5缸线束低端对高端短路</string>
+	<key>P014A</key>
+	<string>发火顺序第6缸线束低端对高端短路</string>
+	<key>P02EB</key>
+	<string>喷油控制模块1对地短路自检超时</string>
+	<key>P02EC</key>
+	<string>喷油控制模块2对地短路自检超时</string>
+	<key>P02F0</key>
+	<string>喷油控制模块1处于短路测试状态</string>
+	<key>P02F1</key>
+	<string>喷油控制模块2处于短路测试状态</string>
+	<key>P014B</key>
+	<string>PTO开关电压信号过高故障</string>
+	<key>P014C</key>
+	<string>高压油泵油量计量单元(MeUn)接头松动</string>
+	<key>P014D</key>
+	<string>高压油泵油量计量单元(MeUn)驱动电路开路</string>
+	<key>P014E</key>
+	<string>电控单元(ECU)内油量计量单元(MeUn)驱动芯片过热</string>
+	<key>P014F</key>
+	<string>高压油泵油量计量单元(MeUn)驱动电路高端对电源短路</string>
+	<key>P0150</key>
+	<string>高压油泵油量计量单元(MeUn)驱动电路高端对地短路</string>
+	<key>P0151</key>
+	<string>高压油泵油量计量单元(MeUn)驱动电路低端对电源短路</string>
+	<key>P0152</key>
+	<string>高压油泵油量计量单元(MeUn)驱动电路低端对地短路</string>
+	<key>P0153</key>
+	<string>高压油泵油量计量单元(MeUn)驱动电流过大</string>
+	<key>P0154</key>
+	<string>高压油泵油量计量单元(MeUn)驱动电流过小</string>
+	<key>P0155</key>
+	<string>MIL灯(OBD灯)驱动电路开路</string>
+	<key>P0156</key>
+	<string>电控单元(ECU)内MIL灯(OBD灯)驱动芯片过热</string>
+	<key>P0157</key>
+	<string>MIL灯(OBD灯)驱动电路对电源短路</string>
+	<key>P0158</key>
+	<string>MIL灯(OBD灯)驱动电路对地短路</string>
+	<key>P0159</key>
+	<string>PTO开关电压信号过低故障</string>
+	<key>P015A</key>
+	<string>电控单元(ECU)内部软硬件底层监控报错(MoC)</string>
+	<key>P015B</key>
+	<string>电控单元(ECU)内部软硬件底层监控报错(MoC)</string>
+	<key>P015C</key>
+	<string>电控单元(ECU)内部软硬件底层监控报错(MoC)</string>
+	<key>P015D</key>
+	<string>电控单元(ECU)内部软硬件底层监控报错(MoC)</string>
+	<key>P015E</key>
+	<string>电控单元(ECU)内部软硬件底层监控报错(MoC)</string>
+	<key>P015F</key>
+	<string>电控单元(ECU)内部软硬件底层监控报错(MoC)</string>
+	<key>P0160</key>
+	<string>电控单元(ECU)内部软硬件底层监控报错(MoC)</string>
+	<key>P0161</key>
+	<string>电控单元(ECU)内部软硬件底层监控报错(MoC)</string>
+	<key>P0162</key>
+	<string>电控单元(ECU)内部软硬件底层监控报错(MoC)</string>
+	<key>P0163</key>
+	<string>电控单元(ECU)内部软硬件底层监控报错(MoC)</string>
+	<key>P0164</key>
+	<string>电控单元(ECU)内部软硬件底层监控报错(MoC)</string>
+	<key>P0165</key>
+	<string>电控单元(ECU)内部软硬件底层监控报错(MoC)</string>
+	<key>P0166</key>
+	<string>电控单元(ECU)内部软硬件底层监控报错(MoC)</string>
+	<key>P0167</key>
+	<string>电控单元(ECU)内部软硬件底层监控报错(MoC)</string>
+	<key>P0168</key>
+	<string>电控单元(ECU)内部软硬件底层监控报错(MoC)</string>
+	<key>P0169</key>
+	<string>电控单元(ECU)内部软硬件底层监控报错(MoC)</string>
+	<key>P016A</key>
+	<string>电控单元(ECU)内部软硬件底层监控报错(MoF)</string>
+	<key>P016B</key>
+	<string>电控单元(ECU)内部软硬件底层监控报错(MoF)</string>
+	<key>P016C</key>
+	<string>电控单元(ECU)内部软硬件底层监控报错(MoF)</string>
+	<key>P016D</key>
+	<string>电控单元(ECU)内部软硬件底层监控报错(MoF)</string>
+	<key>P016E</key>
+	<string>电控单元(ECU)内部软硬件底层监控报错(MoF)</string>
+	<key>P016F</key>
+	<string>电控单元(ECU)内部软硬件底层监控报错(MoF)</string>
+	<key>P0170</key>
+	<string>电控单元(ECU)内部软硬件底层监控报错(MoF)</string>
+	<key>P0171</key>
+	<string>电控单元(ECU)内部软硬件底层监控报错(MoF)</string>
+	<key>P0172</key>
+	<string>电控单元(ECU)内部软硬件底层监控报错(MoF)</string>
+	<key>P02ED</key>
+	<string>电控单元(ECU)内部软硬件底层监控报错(MoF)</string>
+	<key>P0173</key>
+	<string>电控单元(ECU)内部软硬件底层监控报错(MoF)</string>
+	<key>P0174</key>
+	<string>电控单元(ECU)内部软硬件底层监控报错(MoF)</string>
+	<key>P0175</key>
+	<string>电控单元(ECU)内部软硬件底层监控报错(MoF)</string>
+	<key>P0176</key>
+	<string>电控单元(ECU)内部软硬件底层监控报错(MoF)</string>
+	<key>P0177</key>
+	<string>电控单元(ECU)内部软硬件底层监控报错(Mon)</string>
+	<key>P0178</key>
+	<string>电控单元(ECU)内部软硬件底层监控报错(Mon)</string>
+	<key>P0179</key>
+	<string>电控单元(ECU)内部软硬件底层监控报错(Mon)</string>
+	<key>P017A</key>
+	<string>电控单元(ECU)内部软硬件底层监控报错(Mon)</string>
+	<key>P017B</key>
+	<string>电控单元(ECU)内部软硬件底层监控报错(Mon)</string>
+	<key>P017C</key>
+	<string>主继电器断开过早故障</string>
+	<key>P017D</key>
+	<string>主继电器卡滞故障</string>
+	<key>P017E</key>
+	<string>下游氮氧传感器供电电压过高</string>
+	<key>P017F</key>
+	<string>下游氮氧传感器信号与其他传感器信号比较不可信故障</string>
+	<key>P0180</key>
+	<string>下游氮氧传感器故障,长时间处于not ready状态(Ready和非Ready信息时间的比率大于一定的值)</string>
+	<key>P0181</key>
+	<string>下游氮氧传感器测得的Lambda值(binary)偏大</string>
+	<key>P0182</key>
+	<string>下游氮氧传感器测得的Lambda值(binary)偏小</string>
+	<key>P0183</key>
+	<string>下游氮氧传感器测得的Lambda值(linear)偏大</string>
+	<key>P0184</key>
+	<string>下游氮氧传感器测得的Lambda值(linear)偏小</string>
+	<key>P0185</key>
+	<string>倒拖工况(Overrun)时检测的Lambda值不合理,偏大</string>
+	<key>P0186</key>
+	<string>倒拖工况(Overrun)时检测的Lambda值不合理,偏小</string>
+	<key>P0187</key>
+	<string>下游氮氧传感器偏差修正值偏大</string>
+	<key>P0188</key>
+	<string>下游氮氧传感器偏差修正值偏小</string>
+	<key>P0189</key>
+	<string>下游氮氧传感器平均偏差修正值偏大</string>
+	<key>P018A</key>
+	<string>下游氮氧传感器平均偏差修正值偏小</string>
+	<key>P018B</key>
+	<string>氮氧传感器测量到的Lambda值已经从Rich变为Lean一段时间,但是氮氧信号还一直处于无效状态</string>
+	<key>P018C</key>
+	<string>下游氮氧传感器准备超时</string>
+	<key>P018D</key>
+	<string>下游氮氧传感器测量值过高</string>
+	<key>P018E</key>
+	<string>下游氮氧传感器测量值过低</string>
+	<key>P018F</key>
+	<string>下游氮氧传感器内部线路开路</string>
+	<key>P0190</key>
+	<string>下游氮氧传感器内部线路短路</string>
+	<key>P0191</key>
+	<string>PTO开关电压信号不合理故障</string>
+	<key>P0192</key>
+	<string>上游氮氧传感器供电电源故障</string>
+	<key>P0193</key>
+	<string>上游氮氧传感器与其他传感器比较不可信故障</string>
+	<key>P0194</key>
+	<string>氮氧传感器动态响应故障(发动机从负荷状态到Overun状态,传感器的动态响应时间过长)</string>
+	<key>P0195</key>
+	<string>用于DIUMPR计算的氮氧传感器动态响应故障(发动机从负荷状态到Overun状态,传感器的动态响应时间过长)</string>
+	<key>P0196</key>
+	<string>上游氮氧传感器故障,长时间处于not ready状态(Ready和非Ready信息时间的比率大于一定的值)</string>
+	<key>P0197</key>
+	<string>上游氮氧传感器测得的Lambda值(binary)偏大</string>
+	<key>P0198</key>
+	<string>上游氮氧传感器测得的Lambda值(binary)偏小</string>
+	<key>P0199</key>
+	<string>上游氮氧传感器测得的Lambda值(linear)偏大</string>
+	<key>P019A</key>
+	<string>上游氮氧传感器测得的Lambda值(linear)偏小</string>
+	<key>P019B</key>
+	<string>倒拖工况(Overrun)时检测的Lambda值不合理,偏大</string>
+	<key>P019C</key>
+	<string>倒拖工况(Overrun)时检测的Lambda值不合理,偏小</string>
+	<key>P019D</key>
+	<string>上游氮氧传感器偏差修正值偏大</string>
+	<key>P019E</key>
+	<string>上游氮氧传感器偏差修正值偏小</string>
+	<key>P019F</key>
+	<string>上游氮氧传感器平均偏差修正值偏大</string>
+	<key>P01A0</key>
+	<string>上游氮氧传感器平均偏差修正值偏小</string>
+	<key>P01A1</key>
+	<string>氮氧传感器测量到的Lambda值已经从Rich变为Lean一段时间,但是氮氧信号还一直处于无效状态</string>
+	<key>P01A2</key>
+	<string>氮氧传感器加热条件达到后很长一段时间没有接收到氮氧信号就绪信息</string>
+	<key>P01A3</key>
+	<string>上游氮氧传感器测量值偏大</string>
+	<key>P01A4</key>
+	<string>上游氮氧传感器测量值偏小</string>
+	<key>P01A5</key>
+	<string>上游氮氧传感器线路开路(lambda,或氮氧或Heater线)</string>
+	<key>P01A6</key>
+	<string>上游氮氧传感器线路短路(lambda,或氮氧或Heater线)</string>
+	<key>P01A7</key>
+	<string>OBD 故障</string>
+	<key>P01A8</key>
+	<string>OBD 故障</string>
+	<key>P01A9</key>
+	<string>OBD 故障</string>
+	<key>P01AA</key>
+	<string>OBD 故障</string>
+	<key>P01AB</key>
+	<string>OBD 故障</string>
+	<key>P01AC</key>
+	<string>OBD 故障</string>
+	<key>P01AD</key>
+	<string>OBD 故障</string>
+	<key>P01AE</key>
+	<string>OBD 故障</string>
+	<key>P01AF</key>
+	<string>OBD 故障</string>
+	<key>P01B0</key>
+	<string>OBD 故障</string>
+	<key>P01B1</key>
+	<string>OBD 故障</string>
+	<key>P01B2</key>
+	<string>OBD 故障</string>
+	<key>P01B3</key>
+	<string>OBD 故障</string>
+	<key>P01B4</key>
+	<string>OBD 故障</string>
+	<key>P01B5</key>
+	<string>OBD 故障</string>
+	<key>P01B6</key>
+	<string>OBD 故障</string>
+	<key>P01B7</key>
+	<string>电控单元(ECU)内部芯片通讯故障(应答通讯)</string>
+	<key>P01B8</key>
+	<string>电控单元(ECU)内部芯片通讯故障(电压低)</string>
+	<key>P01B9</key>
+	<string>电控单元(ECU)内部芯片通讯故障(电压高)</string>
+	<key>P01BA</key>
+	<string>电控单元(ECU)内部芯片通讯故障(其他原因)</string>
+	<key>P01BB</key>
+	<string>机油液位传感器电压信号过高</string>
+	<key>P01BC</key>
+	<string>机油液位传感器电压信号过低</string>
+	<key>P01BD</key>
+	<string>机油液位传感器信号不可信</string>
+	<key>P01BE</key>
+	<string>机油液位传感器测得液位值超出上限</string>
+	<key>P01BF</key>
+	<string>机油液位传感器测得液位值低于下限</string>
+	<key>P01C0</key>
+	<string>机油压力报警灯驱动电路开路</string>
+	<key>P01C1</key>
+	<string>电控单元(ECU)内机油压力报警灯驱动芯片过热</string>
+	<key>P01C2</key>
+	<string>机油压力报警灯驱动电路对电源短路</string>
+	<key>P01C3</key>
+	<string>机油压力报警灯驱动电路对地短路</string>
+	<key>P01C4</key>
+	<string>机油压力过低</string>
+	<key>P01C5</key>
+	<string>机油压力传感器信号不可信</string>
+	<key>P01C6</key>
+	<string>机油压力传感器测得压力值高于上限</string>
+	<key>P01C7</key>
+	<string>机油压力传感器测得压力值低于下限</string>
+	<key>P01C8</key>
+	<string>来自CAN总线的机油压力信号故障</string>
+	<key>P01C9</key>
+	<string>机油压力传感器电压信号高于上限</string>
+	<key>P01CA</key>
+	<string>机油压力传感器电压信号高于上限</string>
+	<key>P01CB</key>
+	<string>机油温度传感器信号不可信(机油温度过高)</string>
+	<key>P01CC</key>
+	<string>来自CAN总线的机油温度信号故障</string>
+	<key>P01CD</key>
+	<string>机油温度传感器电压信号高于上限</string>
+	<key>P01CE</key>
+	<string>机油温度传感器电压信号低于下限</string>
+	<key>P01CF</key>
+	<string>机油温度传感器信号不可信</string>
+	<key>P01D0</key>
+	<string>增压压力调节控制器偏差值(增压压力设定值减去实际值)高于上限(正偏差过大)</string>
+	<key>P01D1</key>
+	<string>增压压力调节控制器偏差值(增压压力设定值减去实际值)低于下限(负偏差过大)</string>
+	<key>P01D2</key>
+	<string>扭矩油量转换MAP不单调故障指示</string>
+	<key>P01D3</key>
+	<string>增压压力传感器信号不合理-偏大</string>
+	<key>P01D4</key>
+	<string>增压压力传感器信号不合理-偏小</string>
+	<key>P01D5</key>
+	<string>增压压力传感器电压信号高于上限</string>
+	<key>P01D6</key>
+	<string>增压压力传感器电压信号低于下限</string>
+	<key>P01D7</key>
+	<string>颗粒氧化催化器(POC)堵塞故障</string>
+	<key>P01D8</key>
+	<string>颗粒氧化催化器(POC)移除故障</string>
+	<key>P01D9</key>
+	<string>颗粒氧化催化器(POC)两端压差高于上限</string>
+	<key>P01DA</key>
+	<string>颗粒氧化催化器(POC)两端压差低于下限</string>
+	<key>P01DB</key>
+	<string>颗粒氧化催化器(POC)压差传感器信号不可信</string>
+	<key>P01DC</key>
+	<string>来自CAN总线的颗粒氧化催化器(POC)压差传感器信号故障</string>
+	<key>P01DD</key>
+	<string>颗粒氧化催化器(POC)压差传感器电压信号高于上限</string>
+	<key>P01DE</key>
+	<string>颗粒氧化催化器(POC)压差传感器电压信号低于下限</string>
+	<key>P01DF</key>
+	<string>限压阀(PRV)达到最大允许开启次数</string>
+	<key>P01E0</key>
+	<string>限压阀(PRV)因压力升高被强迫打开</string>
+	<key>P01E1</key>
+	<string>限压阀(PRV)因压力波动被强迫打开</string>
+	<key>P01E2</key>
+	<string>限压阀(PRV)被打开</string>
+	<key>P01E3</key>
+	<string>限压阀(PRV)被打开,核查油量平衡(指示性故障)</string>
+	<key>P01E4</key>
+	<string>平均轨压超出预计的误差范围(指示性故障)</string>
+	<key>P01E5</key>
+	<string>限压阀(PRV)达到最大允许开启时间</string>
+	<key>P01E6</key>
+	<string>电控单元(ECU)内R2S2芯片MSC故障</string>
+	<key>P01E7</key>
+	<string>轨压正偏差超(实际轨压低于设定值)限值(MeUn方案)</string>
+	<key>P01E8</key>
+	<string>油量计量单元设定流量相比理论计算的最大值大</string>
+	<key>P01E9</key>
+	<string>油量计量单元(MeUn)供油量达到最小设定流量的情况下,轨压负偏差超限值(实际轨压高于设定值)</string>
+	<key>P01EA</key>
+	<string>轨压实际值大于设定值</string>
+	<key>P01EB</key>
+	<string>实际轨压低于最低轨压值(MeUn方案)</string>
+	<key>P01EC</key>
+	<string>实际轨压高于最高轨压值(MeUn方案)</string>
+	<key>P01ED</key>
+	<string>轨压偏高</string>
+	<key>P01EE</key>
+	<string>倒拖工况(Overrun)状态时,油量计量单元流量偏大</string>
+	<key>P01EF</key>
+	<string>怠速状态时,油量计量单元流量偏大</string>
+	<key>P01F0</key>
+	<string>轨压传感器信号断续</string>
+	<key>P01F1</key>
+	<string>轨压传感器信号漂移故障(电压过高)</string>
+	<key>P01F2</key>
+	<string>轨压传感器信号漂移故障(电压过低)</string>
+	<key>P01F3</key>
+	<string>限压阀PRV打开后,轨压过大</string>
+	<key>P02EE</key>
+	<string>设定喷油量小于标定的实际可能最小值(限压阀PRV打开后)</string>
+	<key>P02EF</key>
+	<string>燃油温度偏高(限压阀PRV打开后)</string>
+	<key>P01F4</key>
+	<string>轨压传感器电压信号高于上限</string>
+	<key>P01F5</key>
+	<string>轨压传感器电压信号低于下限</string>
+	<key>P01F6</key>
+	<string>尿素质量不好</string>
+	<key>P01F7</key>
+	<string>SCR系统长时间修正量太大</string>
+	<key>P01F8</key>
+	<string>SCR系统长时间修正量太小</string>
+	<key>P01F9</key>
+	<string>发动机氮氧排放超标故障</string>
+	<key>P01FA</key>
+	<string>发动机氮氧排放超5.0g/kW.h故障</string>
+	<key>P01FB</key>
+	<string>发动机氮氧排放超7.0g/kW.h故障</string>
+	<key>P01FC</key>
+	<string>下游氮氧传感器合理性检查故障(峰值检查)</string>
+	<key>P01FD</key>
+	<string>下游氮氧传感器合理性检查故障(峰值检查,氮氧值偏大)</string>
+	<key>P01FE</key>
+	<string>下游氮氧传感器合理性检查故障(峰值检查,氮氧值偏小)</string>
+	<key>P01FF</key>
+	<string>下游氮氧传感器合理性检查故障(增量检查)</string>
+	<key>P0200</key>
+	<string>上游氮氧传感器合理性检查故障(氮氧值偏大)</string>
+	<key>P0201</key>
+	<string>上游氮氧传感器合理性检查故障(氮氧值偏小)</string>
+	<key>P0202</key>
+	<string>SCR系统从启动到释放尿素喷射的时刻太长</string>
+	<key>P0203</key>
+	<string>OBD相关故障:尿素剩余量低于可供发动机运行的里程的报警限值</string>
+	<key>P0204</key>
+	<string>OBD相关故障:尿素剩余量低于可供发动机运行的里程的报警限值1</string>
+	<key>P0205</key>
+	<string>OBD相关故障:尿素剩余量低于可供发动机运行的里程的报警限值2</string>
+	<key>P0206</key>
+	<string>SCR系统闭环控制修正关闭</string>
+	<key>P0207</key>
+	<string>SCR系统尿素回流管堵塞故障</string>
+	<key>P0208</key>
+	<string>SCR系统尿素压力管或尿素喷射单元堵塞故障</string>
+	<key>P0209</key>
+	<string>SCR系统压力波动过大故障</string>
+	<key>P020A</key>
+	<string>电控单元(ECU)内部温度传感器测量的温度偏高</string>
+	<key>P020B</key>
+	<string>SCR系统上一个驾驶循环尿素未被完全抽空故障</string>
+	<key>P020C</key>
+	<string>SCR系统喷射时压力过高故障</string>
+	<key>P0312</key>
+	<string>SCR系统压力建立时间过长</string>
+	<key>P020D</key>
+	<string>SCR系统喷射时压力过低故障</string>
+	<key>P020E</key>
+	<string>SCR系统压力过高故障</string>
+	<key>P020F</key>
+	<string>SCR系统建压失败故障</string>
+	<key>P0210</key>
+	<string>SCR系统压力控制状态下,压力泄漏测试失败故障</string>
+	<key>P0211</key>
+	<string>SCR系统降压状态下,系统降压失败故障</string>
+	<key>P0212</key>
+	<string>尿素箱温度过高故障</string>
+	<key>P0214</key>
+	<string>SCR催化器上游温度传感器动态可信性检测上游温度过高故障</string>
+	<key>P0215</key>
+	<string>SCR催化器上游温度传感器动态可信性检测上游温度过低故障</string>
+	<key>P0216</key>
+	<string>SCR催化器上游温度传感器静态可信性检测故障</string>
+	<key>P0217</key>
+	<string>尿素喷射单元的喷阀故障(卡滞)</string>
+	<key>P0218</key>
+	<string>尿素供给单元的转向阀故障(卡滞在关闭位置)</string>
+	<key>P0219</key>
+	<string>尿素箱液位传感器故障(测量值偏高)</string>
+	<key>P021A</key>
+	<string>尿素箱液位传感器故障(测量值偏低)</string>
+	<key>P021B</key>
+	<string>尿素供给单元和喷射单元的喷阀工作不可信故障</string>
+	<key>P021C</key>
+	<string>尿素供给单元加热器故障</string>
+	<key>P021D</key>
+	<string>尿素供给单元加热器温度传感器动态监测不可信故障</string>
+	<key>P021E</key>
+	<string>尿素供给单元加热器温度传感器冷机起动不可信故障</string>
+	<key>P021F</key>
+	<string>尿素供给单元温度传感器动态监测不可信故障</string>
+	<key>P0220</key>
+	<string>尿素供给单元温度传感器冷机启动不可信故障</string>
+	<key>P0221</key>
+	<string>尿素箱温度传感器不可信故障</string>
+	<key>P0222</key>
+	<string>OBD II的要求,用于指示尿素用尽后的最大允许启动次数用尽</string>
+	<key>P0223</key>
+	<string>PTO开关CAN 信号故障</string>
+	<key>P0224</key>
+	<string>尿素供给单元加热器温度信号占空比超出有效范围</string>
+	<key>P0225</key>
+	<string>尿素供给单元加热器温度信号占空比超出有效范围</string>
+	<key>P0226</key>
+	<string>电控单元(ECU)无法获取尿素供给单元温度信号</string>
+	<key>P0227</key>
+	<string>电控单元(ECU)与尿素供给单元之间传输的温度信号周期超出有效范围</string>
+	<key>P0228</key>
+	<string>电控单元(ECU)与尿素供给单元之间传输的温度信号时序或者同步出现故障</string>
+	<key>P0229</key>
+	<string>尿素供给单元温度信号占空比超出有效范围</string>
+	<key>P022A</key>
+	<string>尿素供给单元温度信号占空比超出有效范围</string>
+	<key>P022B</key>
+	<string>油门踏板传感器1电压信号高于上限值</string>
+	<key>P022C</key>
+	<string>油门踏板传感器2电压信号高于上限值</string>
+	<key>P022D</key>
+	<string>远程油门踏板电位计1电压高于最大值</string>
+	<key>P022E</key>
+	<string>远程油门踏板电位计2电压高于最大值</string>
+	<key>P022F</key>
+	<string>油门踏板传感器1电压信号低于下限值</string>
+	<key>P0230</key>
+	<string>油门踏板传感器2电压信号低于下限值</string>
+	<key>P0231</key>
+	<string>远程油门踏板电位计1电压低于最小值</string>
+	<key>P0232</key>
+	<string>远程油门踏板电位计２电压高于最大值</string>
+	<key>P0233</key>
+	<string>尿素箱液位传感器电压信号高于上限</string>
+	<key>P0234</key>
+	<string>尿素箱液位传感器电压信号低于下限</string>
+	<key>P0235</key>
+	<string>传感器供电模块1故障 </string>
+	<key>P0236</key>
+	<string>传感器供电模块2故障 </string>
+	<key>P0237</key>
+	<string>传感器供电模块3故障 </string>
+	<key>P0238</key>
+	<string>12V的传感器供电电源2电压超过限值</string>
+	<key>P0239</key>
+	<string>12V的传感器供电电源2电压低于限值</string>
+	<key>P023A</key>
+	<string>12V的传感器供电电源1电压超过限值</string>
+	<key>P023B</key>
+	<string>12V的传感器供电电源1电压低于限值</string>
+	<key>P023C</key>
+	<string>发动机停机时间计时器计数故障 </string>
+	<key>P023D</key>
+	<string>停机警示灯(Stop Lamp)驱动电路开路</string>
+	<key>P023E</key>
+	<string>电控单元(ECU)内停机警示灯(Stop Lamp)驱动芯片过热</string>
+	<key>P023F</key>
+	<string>停机警示灯(Stop Lamp)驱动电路对电池短路</string>
+	<key>P0240</key>
+	<string>停机警示灯(Stop Lamp)驱动电路对地短路</string>
+	<key>P0241</key>
+	<string>起动机继电器控制端开路</string>
+	<key>P0242</key>
+	<string>电控单元(ECU)内起动机继电器控制端驱动芯片过热</string>
+	<key>P0243</key>
+	<string>起动机继电器控制端对电源短路</string>
+	<key>P0244</key>
+	<string>起动机继电器控制端对地短路</string>
+	<key>P0245</key>
+	<string>系统灯(SVS)驱动电路开路</string>
+	<key>P0246</key>
+	<string>电控单元(ECU)内系统灯(SVS)驱动芯片过热</string>
+	<key>P0247</key>
+	<string>系统灯(SVS)驱动电路对电池短路</string>
+	<key>P0248</key>
+	<string>系统灯(SVS)驱动电路对地短路</string>
+	<key>P0249</key>
+	<string>ECU软件重置_0</string>
+	<key>P024A</key>
+	<string>ECU软件重置_1</string>
+	<key>P024B</key>
+	<string>ECU软件重置_2</string>
+	<key>P024C</key>
+	<string>油门踏板1和油门踏板2信号合理性故障</string>
+	<key>P024D</key>
+	<string>油门踏板和怠速开关信号不合理故障</string>
+	<key>P024E</key>
+	<string>远程油门踏板电位计1和2的不同步故障</string>
+	<key>P024F</key>
+	<string>错误的T50开关操作</string>
+	<key>P0250</key>
+	<string>空气流量计(HFM)进气温度传感器占空比信号高于上限</string>
+	<key>P0251</key>
+	<string>空气流量计(HFM)进气温度传感器占空比信号低于下限</string>
+	<key>P0252</key>
+	<string>空气流量计(HFM)进气温度传感器周期信号高于上限</string>
+	<key>P0253</key>
+	<string>空气流量计(HFM)进气温度传感器周期信号低于下限</string>
+	<key>P0254</key>
+	<string>来自CAN总线的增压中冷后的进气温度信号故障</string>
+	<key>P0255</key>
+	<string>增压中冷后的进气温度传感器电压信号高于上限</string>
+	<key>P0256</key>
+	<string>增压中冷后的进气温度传感器电压信号低于下限</string>
+	<key>P0257</key>
+	<string>增压中冷后的进气温度信号不可信</string>
+	<key>P0258</key>
+	<string>电控单元(ECU)内温度值传感器电压信号高于上限</string>
+	<key>P0259</key>
+	<string>电控单元(ECU)内温度值传感器电压信号低于下限</string>
+	<key>P025A</key>
+	<string>节流阀(TVA)驱动电流受限</string>
+	<key>P025B</key>
+	<string>电子节流阀(TVA)全关位置的自学习值偏移超过限值</string>
+	<key>P025C</key>
+	<string>电子节流阀(TVA)全开位置的自学习值偏移超过限值</string>
+	<key>P025D</key>
+	<string>电子节流阀(TVA)机械关闭位置的自学习值偏移超过限值</string>
+	<key>P025E</key>
+	<string>节流阀(TVA)控制器在冷启动过程产生偏差</string>
+	<key>P025F</key>
+	<string>节流阀(TVA)控制器产生永久正偏差</string>
+	<key>P0260</key>
+	<string>节流阀(TVA)控制器产生永久负偏差</string>
+	<key>P0261</key>
+	<string>节流阀(TVA)卡在关的位置</string>
+	<key>P0262</key>
+	<string>节流阀(TVA)卡在开的位置</string>
+	<key>P0263</key>
+	<string>电子节流阀(TVA)全关位置的自学习值与本轮第一次值差值过大</string>
+	<key>P0264</key>
+	<string>电子节流阀(TVA)全开位置的自学习值与本轮第一次值差值过大</string>
+	<key>P0265</key>
+	<string>节流阀(TVA)驱动接口电路开路</string>
+	<key>P0266</key>
+	<string>节流阀(TVA)驱动接口电路过热</string>
+	<key>P0267</key>
+	<string>电子节流阀(TVA)信号超过机械最大位置 </string>
+	<key>P0268</key>
+	<string>电子节流阀(TVA)信号超过机械最小位置 </string>
+	<key>P0269</key>
+	<string>节流阀(TVA)驱动电路对电源短路</string>
+	<key>P026A</key>
+	<string>节流阀(TVA)驱动电路对地短路</string>
+	<key>P026B</key>
+	<string>电子节流阀(TVA)全关位置的前后两次自学习值差值过大</string>
+	<key>P026C</key>
+	<string>电子节流阀(TVA)全开位置的前后两次自学习值差值过大</string>
+	<key>P026D</key>
+	<string>节流阀(TVA)位置反馈传感器值高于上限值(模拟信号)</string>
+	<key>P026E</key>
+	<string>节流阀(TVA)位置反馈传感器值低于下限值(模拟信号)</string>
+	<key>P026F</key>
+	<string>节流阀(TVA)临时故障</string>
+	<key>P0270</key>
+	<string>上游进气温度传感器电压信号高于限值</string>
+	<key>P0271</key>
+	<string>上游进气温度传感器电压信号低于限值</string>
+	<key>P0272</key>
+	<string>增压器驱动电路开路</string>
+	<key>P0273</key>
+	<string>增压器超速故障</string>
+	<key>P0274</key>
+	<string>电控单元(ECU)内增压器驱动芯片过热</string>
+	<key>P0275</key>
+	<string>增压器驱动电路对蓄电源短路</string>
+	<key>P0276</key>
+	<string>增压器控制电路对地短路</string>
+	<key>P0277</key>
+	<string>电控单元(ECU)从CAN总线收到的催化器下游温度信号有误</string>
+	<key>P0278</key>
+	<string>SCR催化器下游温度传感器信号电压过高</string>
+	<key>P0279</key>
+	<string>SCR催化器下游温度传感器信号电压过低</string>
+	<key>P027A</key>
+	<string>电控单元(ECU)从CAN总线收到的催化器上游温度信号有误</string>
+	<key>P027B</key>
+	<string>SCR催化器上游温度传感器信号电压过高</string>
+	<key>P027C</key>
+	<string>SCR催化器上游温度传感器信号电压过低</string>
+	<key>P027D</key>
+	<string>尿素箱液位过低故障</string>
+	<key>P027E</key>
+	<string>尿素喷射单元驱动电路电流超出最大限值故障</string>
+	<key>P027F</key>
+	<string>电控单元(ECU)内尿素喷射单元驱动芯片过热故障</string>
+	<key>P0280</key>
+	<string>尿素喷射单元低端对电源短路故障</string>
+	<key>P0281</key>
+	<string>尿素喷射单元开路或高端对电源短路故障</string>
+	<key>P0282</key>
+	<string>尿素喷射单元低端对地短路故障</string>
+	<key>P0283</key>
+	<string>尿素喷射单元高端对地短路故障</string>
+	<key>P0284</key>
+	<string>SCR系统加热时,加热部件发生故障而引起的SCR系统停机 </string>
+	<key>P0285</key>
+	<string>尿素回流管路加热继电器负载端反馈信号不合理故障</string>
+	<key>P0286</key>
+	<string>尿素回流管路加热继电器负载端对地开路故障</string>
+	<key>P0287</key>
+	<string>尿素回流管路加热继电器负载端与电源之间的线路发生开路或对地短路故障</string>
+	<key>P0288</key>
+	<string>尿素回流管路加热继电器控制端开路故障</string>
+	<key>P0289</key>
+	<string>电控单元(ECU)内尿素回流管路加热继电器控制端驱动芯片过热故障</string>
+	<key>P028A</key>
+	<string>尿素回流管路加热继电器控制端对电源短路</string>
+	<key>P028B</key>
+	<string>尿素回流管路加热继电器控制端对地短路故障</string>
+	<key>P028C</key>
+	<string>尿素压力管路加热继电器负载端反馈信号不合理故障</string>
+	<key>P028D</key>
+	<string>尿素压力管路加热继电器负载端对地开路故障</string>
+	<key>P028E</key>
+	<string>尿素压力管路加热继电器负载端与电源之间的线路发生开路或对地短路故障</string>
+	<key>P028F</key>
+	<string>尿素压力管路加热继电器控制端开路故障</string>
+	<key>P0290</key>
+	<string>电控单元(ECU)内尿素压力管路加热继电器控制端驱动芯片过热故障</string>
+	<key>P0291</key>
+	<string>尿素压力管路加热继电器控制端对电源短路故障</string>
+	<key>P0292</key>
+	<string>尿素压力管路加热继电器控制端对地短路故障</string>
+	<key>P0293</key>
+	<string>尿素管或尿素供给单元加热器线路对电源短路故障</string>
+	<key>P0294</key>
+	<string>SCR系统加热主继电器控制端开路故障</string>
+	<key>P0295</key>
+	<string>电控单元(ECU)内SCR系统加热主继电器控制端驱动芯片过热故障</string>
+	<key>P0296</key>
+	<string>SCR系统加热主继电器控制端对电源短路故障</string>
+	<key>P0297</key>
+	<string>SCR系统加热主继电器控制端对地短路故障</string>
+	<key>P0298</key>
+	<string>尿素吸入管路加热继电器负载端反馈信号不合理故障</string>
+	<key>P0299</key>
+	<string>尿素吸入管路加热继电器负载端对地开路故障</string>
+	<key>P029A</key>
+	<string>尿素吸入管路加热继电器负载端与电源之间的线路发生开路或对地短路故障</string>
+	<key>P029B</key>
+	<string>尿素吸入管路加热继电器控制端开路故障</string>
+	<key>P029C</key>
+	<string>电控单元(ECU)内尿素吸入管路加热继电器控制端驱动芯片过热故障</string>
+	<key>P029D</key>
+	<string>尿素吸入管路加热继电器控制端对电源短路故障</string>
+	<key>P029E</key>
+	<string>尿素吸入管路加热继电器控制端对地短路故障</string>
+	<key>P029F</key>
+	<string>尿素供给单元加热继电器负载端反馈信号不合理故障</string>
+	<key>P02A0</key>
+	<string>尿素供给单元加热继电器负载端对地开路故障</string>
+	<key>P02A1</key>
+	<string>尿素供给单元加热继电器负载端与电源之间的线路发生开路或对地短路故障</string>
+	<key>P02A2</key>
+	<string>尿素供给单元加热继电器控制端开路故障</string>
+	<key>P02A3</key>
+	<string>电控单元(ECU)内尿素供给单元加热继电器控制端驱动芯片过热故障</string>
+	<key>P02A4</key>
+	<string>尿素供给单元加热继电器控制端对电源短路故障</string>
+	<key>P02A5</key>
+	<string>尿素供给单元加热继电器控制端对地短路故障</string>
+	<key>P02A6</key>
+	<string>尿素箱加热阀驱动电路开路故障</string>
+	<key>P02A7</key>
+	<string>电控单元(ECU)内尿素箱加热阀驱动芯片过热故障</string>
+	<key>P02A8</key>
+	<string>尿素箱加热阀驱动电路对电源短路故障</string>
+	<key>P02A9</key>
+	<string>尿素箱加热阀驱动电路对地短路故障</string>
+	<key>P02AA</key>
+	<string>尿素供给单元电机转速偏差故障</string>
+	<key>P02AB</key>
+	<string>尿素供给单元电机转速偏差永久故障</string>
+	<key>P02AC</key>
+	<string>尿素供给单元线束未连接</string>
+	<key>P02AD</key>
+	<string>尿素供给单元驱动电路开路故障</string>
+	<key>P02AE</key>
+	<string>电控单元(ECU)内尿素供给单元驱动芯片过热故障</string>
+	<key>P02AF</key>
+	<string>尿素供给单元驱动电路对电源短路故障</string>
+	<key>P02B0</key>
+	<string>尿素供给单元驱动电路对地短路故障</string>
+	<key>P0313</key>
+	<string>尿素压力超过上限</string>
+	<key>P0314</key>
+	<string>尿素压力低于下限</string>
+	<key>P02B1</key>
+	<string>尿素供给单元的压力传感器合理性故障(测量值过高)</string>
+	<key>P02B2</key>
+	<string>尿素供给单元的压力传感器合理性故障(测量值过低)</string>
+	<key>P02B3</key>
+	<string>无法从CAN得到有效的尿素供给单元的压力信息</string>
+	<key>P02B4</key>
+	<string>尿素供给单元的压力传感器信号电压过高故障</string>
+	<key>P02B5</key>
+	<string>尿素供给单元的压力传感器信号电压过低故障</string>
+	<key>P02B6</key>
+	<string>尿素供给单元反向阀高端驱动电路对电源短路故障</string>
+	<key>P02B7</key>
+	<string>电控单元(ECU)内尿素供给单元反向阀高端驱动芯片过热故障</string>
+	<key>P02B8</key>
+	<string>尿素转向阀高端控制驱动电路对电源短路故障</string>
+	<key>P02B9</key>
+	<string>尿素供给单元反向阀高端驱动电路对地短路故障</string>
+	<key>P02BA</key>
+	<string>尿素供给单元反向阀驱动电路开路或短地故障</string>
+	<key>P02BB</key>
+	<string>电控单元(ECU)内尿素供给单元反向阀低端驱动芯片过热故障</string>
+	<key>P02BC</key>
+	<string>尿素供给单元反向阀低端驱动电路对电源短路故障</string>
+	<key>P02BD</key>
+	<string>尿素转向阀低端控制驱动电路对地短路故障</string>
+	<key>P02BE</key>
+	<string>电控单元(ECU)从CAN总线收到的尿素箱温度信号有误</string>
+	<key>P02BF</key>
+	<string>尿素箱温度传感器信号电压过高</string>
+	<key>P02C0</key>
+	<string>尿素箱温度传感器信号电压过低</string>
+	<key>P02C1</key>
+	<string>尿素箱温度传感器信号合理性故障(测量值过高)</string>
+	<key>P02C2</key>
+	<string>尿素箱温度传感器信号合理性故障(检测测量值过低)</string>
+	<key>P02C3</key>
+	<string>来自CAN总线的车速信号故障</string>
+	<key>P02C4</key>
+	<string>车速高于上限</string>
+	<key>P02C5</key>
+	<string>车速信号不合理</string>
+	<key>P02C6</key>
+	<string>车速信号不合理</string>
+	<key>P02C7</key>
+	<string>车速传感器电压信号高于上限</string>
+	<key>P02C8</key>
+	<string>车速传感器电压信号低于下限</string>
+	<key>P02C9</key>
+	<string>来自仪表盘的车速信号高于上限</string>
+	<key>P02CA</key>
+	<string>来自仪表盘的车速信号低于下限</string>
+	<key>P02CB</key>
+	<string>来自仪表盘的车速信号故障</string>
+	<key>P02CC</key>
+	<string>警示灯驱动电路开路</string>
+	<key>P02CD</key>
+	<string>电控单元(ECU)内警示灯驱动芯片过热</string>
+	<key>P02CE</key>
+	<string>警示灯驱动电路对电源短路</string>
+	<key>P02CF</key>
+	<string>警示灯驱动电路对地短路</string>
+	<key>P0323</key>
+	<string>发火顺序第1缸喷油器加电时间高于上限值(ZFL功能作用时)</string>
+	<key>P0324</key>
+	<string>发火顺序第2缸喷油器加电时间高于上限值(ZFL功能作用时)</string>
+	<key>P0325</key>
+	<string>发火顺序第3缸喷油器加电时间高于上限值(ZFL功能作用时)</string>
+	<key>P0326</key>
+	<string>发火顺序第4缸喷油器加电时间高于上限值(ZFL功能作用时)</string>
+	<key>P0327</key>
+	<string>发火顺序第5缸喷油器加电时间高于上限值(ZFL功能作用时)</string>
+	<key>P0328</key>
+	<string>发火顺序第6缸喷油器加电时间高于上限值(ZFL功能作用时)</string>
+	<key>P0329</key>
+	<string>发火顺序第1缸喷油器加电时间低于下限值(ZFL功能作用时)</string>
+	<key>P032A</key>
+	<string>发火顺序第2缸喷油器加电时间低于下限值(ZFL功能作用时)</string>
+	<key>P032B</key>
+	<string>发火顺序第3缸喷油器加电时间低于下限值(ZFL功能作用时)</string>
+	<key>P032C</key>
+	<string>发火顺序第4缸喷油器加电时间低于下限值(ZFL功能作用时)</string>
+	<key>P032D</key>
+	<string>发火顺序第5缸喷油器加电时间低于下限值(ZFL功能作用时)</string>
+	<key>P032E</key>
+	<string>发火顺序第6缸喷油器加电时间低于下限值(ZFL功能作用时)</string>
+</dict>
+</plist>

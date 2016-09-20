@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8506AFC918ADEF4900447395 /* FAWConfirmedFaultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8506AFC718ADEF4900447395 /* FAWConfirmedFaultViewController.m */; };
+		8506AFCA18ADEF4900447395 /* FAWConfirmedFaultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8506AFC818ADEF4900447395 /* FAWConfirmedFaultViewController.xib */; };
+		850857FE18CFF6E700C80C52 /* FAWCompressionTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 850857FC18CFF6E700C80C52 /* FAWCompressionTestViewController.m */; };
+		850857FF18CFF6E700C80C52 /* FAWCompressionTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 850857FD18CFF6E700C80C52 /* FAWCompressionTestViewController.xib */; };
+		850995F318D5C0CE002D4D07 /* FAWHiPotTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 850995F118D5C0CE002D4D07 /* FAWHiPotTestViewController.m */; };
+		850995F418D5C0CE002D4D07 /* FAWHiPotTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 850995F218D5C0CE002D4D07 /* FAWHiPotTestViewController.xib */; };
+		850C7EB318A9AACE007E3E3F /* FAWBusinessLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 850C7EB218A9AACE007E3E3F /* FAWBusinessLayer.m */; };
+		851E68DC18DFD0E700F57E20 /* FAWStartupFaultTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851E68DA18DFD0E700F57E20 /* FAWStartupFaultTestViewController.m */; };
+		851E68DD18DFD0E700F57E20 /* FAWStartupFaultTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 851E68DB18DFD0E700F57E20 /* FAWStartupFaultTestViewController.xib */; };
+		851EF0881867D21300011545 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 851EF0871867D21300011545 /* Foundation.framework */; };
+		851EF08A1867D21300011545 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 851EF0891867D21300011545 /* CoreGraphics.framework */; };
+		851EF08C1867D21300011545 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 851EF08B1867D21300011545 /* UIKit.framework */; };
+		851EF0921867D21300011545 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 851EF0901867D21300011545 /* InfoPlist.strings */; };
+		851EF0941867D21300011545 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 851EF0931867D21300011545 /* main.m */; };
+		851EF0981867D21300011545 /* FAWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 851EF0971867D21300011545 /* FAWAppDelegate.m */; };
+		851EF09A1867D21300011545 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 851EF0991867D21300011545 /* Images.xcassets */; };
+		851EF0A11867D21300011545 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 851EF0A01867D21300011545 /* XCTest.framework */; };
+		851EF0A21867D21300011545 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 851EF0871867D21300011545 /* Foundation.framework */; };
+		851EF0A31867D21300011545 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 851EF08B1867D21300011545 /* UIKit.framework */; };
+		851EF0AB1867D21300011545 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 851EF0A91867D21300011545 /* InfoPlist.strings */; };
+		851EF0AD1867D21300011545 /* EDC17EMSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 851EF0AC1867D21300011545 /* EDC17EMSTests.m */; };
+		851EF0B91867D24400011545 /* FAWMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851EF0B71867D24400011545 /* FAWMainViewController.m */; };
+		851EF0BA1867D24400011545 /* FAWMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 851EF0B81867D24400011545 /* FAWMainViewController.xib */; };
+		851EF0BF1867D92700011545 /* FAWVehicleDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851EF0BD1867D92700011545 /* FAWVehicleDataViewController.m */; };
+		851EF0C01867D92700011545 /* FAWVehicleDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 851EF0BE1867D92700011545 /* FAWVehicleDataViewController.xib */; };
+		851EF0C41867F41600011545 /* FAWDynamicDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851EF0C21867F41600011545 /* FAWDynamicDataViewController.m */; };
+		851EF0C51867F41600011545 /* FAWDynamicDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 851EF0C31867F41600011545 /* FAWDynamicDataViewController.xib */; };
+		851EF0C91867F97400011545 /* FAWEngineDataStreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851EF0C71867F97400011545 /* FAWEngineDataStreamViewController.m */; };
+		851EF0CA1867F97400011545 /* FAWEngineDataStreamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 851EF0C81867F97400011545 /* FAWEngineDataStreamViewController.xib */; };
+		851EF0CE1867FE6F00011545 /* FAWVehicleDataStreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851EF0CC1867FE6F00011545 /* FAWVehicleDataStreamViewController.m */; };
+		851EF0CF1867FE6F00011545 /* FAWVehicleDataStreamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 851EF0CD1867FE6F00011545 /* FAWVehicleDataStreamViewController.xib */; };
+		851EF0D318680B6E00011545 /* FAWAftertreatmentDataStreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851EF0D118680B6E00011545 /* FAWAftertreatmentDataStreamViewController.m */; };
+		851EF0D418680B6E00011545 /* FAWAftertreatmentDataStreamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 851EF0D218680B6E00011545 /* FAWAftertreatmentDataStreamViewController.xib */; };
+		851EF0D818680F9500011545 /* FAWFaultDiagnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851EF0D618680F9500011545 /* FAWFaultDiagnosisViewController.m */; };
+		851EF0D918680F9500011545 /* FAWFaultDiagnosisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 851EF0D718680F9500011545 /* FAWFaultDiagnosisViewController.xib */; };
+		851EF0DD1868211A00011545 /* FAWExternalTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851EF0DB1868211A00011545 /* FAWExternalTestViewController.m */; };
+		851EF0DE1868211A00011545 /* FAWExternalTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 851EF0DC1868211A00011545 /* FAWExternalTestViewController.xib */; };
+		851EF0E2186824A200011545 /* FAWAftertreatmentTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851EF0E0186824A200011545 /* FAWAftertreatmentTestViewController.m */; };
+		851EF0E3186824A200011545 /* FAWAftertreatmentTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 851EF0E1186824A200011545 /* FAWAftertreatmentTestViewController.xib */; };
+		8520135118D68B8F0045A0F5 /* FAWRunUpTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8520134F18D68B8F0045A0F5 /* FAWRunUpTestViewController.m */; };
+		8520135218D68B8F0045A0F5 /* FAWRunUpTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8520135018D68B8F0045A0F5 /* FAWRunUpTestViewController.xib */; };
+		8525701D18690B5B00BBE174 /* FAWROIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8525701B18690B5B00BBE174 /* FAWROIViewController.m */; };
+		8525701E18690B5B00BBE174 /* FAWROIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8525701C18690B5B00BBE174 /* FAWROIViewController.xib */; };
+		852CCA9C18D8292600055E21 /* FAWSpeedCompareTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 852CCA9A18D8292600055E21 /* FAWSpeedCompareTestViewController.m */; };
+		852CCA9D18D8292600055E21 /* FAWSpeedCompareTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 852CCA9B18D8292600055E21 /* FAWSpeedCompareTestViewController.xib */; };
+		8558473418AC904900AC2AD6 /* FAWPendingFaultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8558473218AC904900AC2AD6 /* FAWPendingFaultViewController.m */; };
+		8558473518AC904900AC2AD6 /* FAWPendingFaultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8558473318AC904900AC2AD6 /* FAWPendingFaultViewController.xib */; };
+		85A2B37518690E7100BD310B /* FAWLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A2B37318690E7100BD310B /* FAWLoginViewController.m */; };
+		85A2B37618690E7100BD310B /* FAWLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85A2B37418690E7100BD310B /* FAWLoginViewController.xib */; };
+		85A2B3791869121C00BD310B /* Background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85A2B3781869121C00BD310B /* Background@2x.png */; };
+		85A2B37C1869141300BD310B /* RadioNormal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85A2B37A1869141300BD310B /* RadioNormal@2x.png */; };
+		85A2B37D1869141300BD310B /* RadioSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85A2B37B1869141300BD310B /* RadioSelected@2x.png */; };
+		85A8D2EA18A9EEFE00076FFA /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 85A8D2E718A9EEFE00076FFA /* SVProgressHUD.bundle */; };
+		85A8D2EB18A9EEFE00076FFA /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A8D2E918A9EEFE00076FFA /* SVProgressHUD.m */; };
+		85D095E218D6E2DF00113971 /* FAWSprayShutoffTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D095E018D6E2DF00113971 /* FAWSprayShutoffTestViewController.m */; };
+		85D095E318D6E2DF00113971 /* FAWSprayShutoffTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85D095E118D6E2DF00113971 /* FAWSprayShutoffTestViewController.xib */; };
+		85E6581118ADBC9C00D28D8B /* FaultDescriptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85E6581018ADBC9C00D28D8B /* FaultDescriptions.plist */; };
+		85E6581518ADBE9100D28D8B /* FAWFrozenInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E6581318ADBE9100D28D8B /* FAWFrozenInfoViewController.m */; };
+		85E6581618ADBE9100D28D8B /* FAWFrozenInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85E6581418ADBE9100D28D8B /* FAWFrozenInfoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		851EF0A41867D21300011545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 851EF07C1867D21300011545 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 851EF0831867D21300011545;
+			remoteInfo = EDC17EMS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8506AFC618ADEF4900447395 /* FAWConfirmedFaultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAWConfirmedFaultViewController.h; sourceTree = "<group>"; };
+		8506AFC718ADEF4900447395 /* FAWConfirmedFaultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAWConfirmedFaultViewController.m; sourceTree = "<group>"; };
+		8506AFC818ADEF4900447395 /* FAWConfirmedFaultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FAWConfirmedFaultViewController.xib; sourceTree = "<group>"; };
+		850857FB18CFF6E700C80C52 /* FAWCompressionTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAWCompressionTestViewController.h; sourceTree = "<group>"; };
+		850857FC18CFF6E700C80C52 /* FAWCompressionTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAWCompressionTestViewController.m; sourceTree = "<group>"; };
+		850857FD18CFF6E700C80C52 /* FAWCompressionTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FAWCompressionTestViewController.xib; sourceTree = "<group>"; };
+		850995F018D5C0CE002D4D07 /* FAWHiPotTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAWHiPotTestViewController.h; sourceTree = "<group>"; };
+		850995F118D5C0CE002D4D07 /* FAWHiPotTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAWHiPotTestViewController.m; sourceTree = "<group>"; };
+		850995F218D5C0CE002D4D07 /* FAWHiPotTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FAWHiPotTestViewController.xib; sourceTree = "<group>"; };
+		850C7EB118A9AACE007E3E3F /* FAWBusinessLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAWBusinessLayer.h; sourceTree = "<group>"; };
+		850C7EB218A9AACE007E3E3F /* FAWBusinessLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAWBusinessLayer.m; sourceTree = "<group>"; };
+		851E68D918DFD0E700F57E20 /* FAWStartupFaultTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAWStartupFaultTestViewController.h; sourceTree = "<group>"; };
+		851E68DA18DFD0E700F57E20 /* FAWStartupFaultTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAWStartupFaultTestViewController.m; sourceTree = "<group>"; };
+		851E68DB18DFD0E700F57E20 /* FAWStartupFaultTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FAWStartupFaultTestViewController.xib; sourceTree = "<group>"; };
+		851EF0841867D21300011545 /* EDC17EMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EDC17EMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		851EF0871867D21300011545 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		851EF0891867D21300011545 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		851EF08B1867D21300011545 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		851EF08F1867D21300011545 /* EDC17EMS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EDC17EMS-Info.plist"; sourceTree = "<group>"; };
+		851EF0911867D21300011545 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		851EF0931867D21300011545 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		851EF0951867D21300011545 /* EDC17EMS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EDC17EMS-Prefix.pch"; sourceTree = "<group>"; };
+		851EF0961867D21300011545 /* FAWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAWAppDelegate.h; sourceTree = "<group>"; };
+		851EF0971867D21300011545 /* FAWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAWAppDelegate.m; sourceTree = "<group>"; };
+		851EF0991867D21300011545 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		851EF09F1867D21300011545 /* EDC17EMSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EDC17EMSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		851EF0A01867D21300011545 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		851EF0A81867D21300011545 /* EDC17EMSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EDC17EMSTests-Info.plist"; sourceTree = "<group>"; };
+		851EF0AA1867D21300011545 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		851EF0AC1867D21300011545 /* EDC17EMSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDC17EMSTests.m; sourceTree = "<group>"; };
+		851EF0B61867D24400011545 /* FAWMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAWMainViewController.h; sourceTree = "<group>"; };
+		851EF0B71867D24400011545 /* FAWMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAWMainViewController.m; sourceTree = "<group>"; };
+		851EF0B81867D24400011545 /* FAWMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FAWMainViewController.xib; sourceTree = "<group>"; };
+		851EF0BC1867D92700011545 /* FAWVehicleDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAWVehicleDataViewController.h; sourceTree = "<group>"; };
+		851EF0BD1867D92700011545 /* FAWVehicleDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAWVehicleDataViewController.m; sourceTree = "<group>"; };
+		851EF0BE1867D92700011545 /* FAWVehicleDataViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FAWVehicleDataViewController.xib; sourceTree = "<group>"; };
+		851EF0C11867F41600011545 /* FAWDynamicDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAWDynamicDataViewController.h; sourceTree = "<group>"; };
+		851EF0C21867F41600011545 /* FAWDynamicDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAWDynamicDataViewController.m; sourceTree = "<group>"; };
+		851EF0C31867F41600011545 /* FAWDynamicDataViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FAWDynamicDataViewController.xib; sourceTree = "<group>"; };
+		851EF0C61867F97400011545 /* FAWEngineDataStreamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAWEngineDataStreamViewController.h; sourceTree = "<group>"; };
+		851EF0C71867F97400011545 /* FAWEngineDataStreamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAWEngineDataStreamViewController.m; sourceTree = "<group>"; };
+		851EF0C81867F97400011545 /* FAWEngineDataStreamViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FAWEngineDataStreamViewController.xib; sourceTree = "<group>"; };
+		851EF0CB1867FE6F00011545 /* FAWVehicleDataStreamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAWVehicleDataStreamViewController.h; sourceTree = "<group>"; };
+		851EF0CC1867FE6F00011545 /* FAWVehicleDataStreamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAWVehicleDataStreamViewController.m; sourceTree = "<group>"; };
+		851EF0CD1867FE6F00011545 /* FAWVehicleDataStreamViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FAWVehicleDataStreamViewController.xib; sourceTree = "<group>"; };
+		851EF0D018680B6E00011545 /* FAWAftertreatmentDataStreamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAWAftertreatmentDataStreamViewController.h; sourceTree = "<group>"; };
+		851EF0D118680B6E00011545 /* FAWAftertreatmentDataStreamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAWAftertreatmentDataStreamViewController.m; sourceTree = "<group>"; };
+		851EF0D218680B6E00011545 /* FAWAftertreatmentDataStreamViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FAWAftertreatmentDataStreamViewController.xib; sourceTree = "<group>"; };
+		851EF0D518680F9500011545 /* FAWFaultDiagnosisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAWFaultDiagnosisViewController.h; sourceTree = "<group>"; };
+		851EF0D618680F9500011545 /* FAWFaultDiagnosisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAWFaultDiagnosisViewController.m; sourceTree = "<group>"; };
+		851EF0D718680F9500011545 /* FAWFaultDiagnosisViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FAWFaultDiagnosisViewController.xib; sourceTree = "<group>"; };
+		851EF0DA1868211A00011545 /* FAWExternalTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAWExternalTestViewController.h; sourceTree = "<group>"; };
+		851EF0DB1868211A00011545 /* FAWExternalTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAWExternalTestViewController.m; sourceTree = "<group>"; };
+		851EF0DC1868211A00011545 /* FAWExternalTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FAWExternalTestViewController.xib; sourceTree = "<group>"; };
+		851EF0DF186824A200011545 /* FAWAftertreatmentTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAWAftertreatmentTestViewController.h; sourceTree = "<group>"; };
+		851EF0E0186824A200011545 /* FAWAftertreatmentTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAWAftertreatmentTestViewController.m; sourceTree = "<group>"; };
+		851EF0E1186824A200011545 /* FAWAftertreatmentTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FAWAftertreatmentTestViewController.xib; sourceTree = "<group>"; };
+		8520134E18D68B8F0045A0F5 /* FAWRunUpTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAWRunUpTestViewController.h; sourceTree = "<group>"; };
+		8520134F18D68B8F0045A0F5 /* FAWRunUpTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAWRunUpTestViewController.m; sourceTree = "<group>"; };
+		8520135018D68B8F0045A0F5 /* FAWRunUpTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FAWRunUpTestViewController.xib; sourceTree = "<group>"; };
+		8525701A18690B5B00BBE174 /* FAWROIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAWROIViewController.h; sourceTree = "<group>"; };
+		8525701B18690B5B00BBE174 /* FAWROIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAWROIViewController.m; sourceTree = "<group>"; };
+		8525701C18690B5B00BBE174 /* FAWROIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FAWROIViewController.xib; sourceTree = "<group>"; };
+		852CCA9918D8292600055E21 /* FAWSpeedCompareTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAWSpeedCompareTestViewController.h; sourceTree = "<group>"; };
+		852CCA9A18D8292600055E21 /* FAWSpeedCompareTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAWSpeedCompareTestViewController.m; sourceTree = "<group>"; };
+		852CCA9B18D8292600055E21 /* FAWSpeedCompareTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FAWSpeedCompareTestViewController.xib; sourceTree = "<group>"; };
+		8558473118AC904900AC2AD6 /* FAWPendingFaultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAWPendingFaultViewController.h; sourceTree = "<group>"; };
+		8558473218AC904900AC2AD6 /* FAWPendingFaultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAWPendingFaultViewController.m; sourceTree = "<group>"; };
+		8558473318AC904900AC2AD6 /* FAWPendingFaultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FAWPendingFaultViewController.xib; sourceTree = "<group>"; };
+		85A2B37218690E7100BD310B /* FAWLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAWLoginViewController.h; sourceTree = "<group>"; };
+		85A2B37318690E7100BD310B /* FAWLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAWLoginViewController.m; sourceTree = "<group>"; };
+		85A2B37418690E7100BD310B /* FAWLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FAWLoginViewController.xib; sourceTree = "<group>"; };
+		85A2B3781869121C00BD310B /* Background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background@2x.png"; sourceTree = "<group>"; };
+		85A2B37A1869141300BD310B /* RadioNormal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RadioNormal@2x.png"; sourceTree = "<group>"; };
+		85A2B37B1869141300BD310B /* RadioSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RadioSelected@2x.png"; sourceTree = "<group>"; };
+		85A8D2E618A9EEFE00076FFA /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		85A8D2E718A9EEFE00076FFA /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		85A8D2E818A9EEFE00076FFA /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		85A8D2E918A9EEFE00076FFA /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		85D095DF18D6E2DF00113971 /* FAWSprayShutoffTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAWSprayShutoffTestViewController.h; sourceTree = "<group>"; };
+		85D095E018D6E2DF00113971 /* FAWSprayShutoffTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAWSprayShutoffTestViewController.m; sourceTree = "<group>"; };
+		85D095E118D6E2DF00113971 /* FAWSprayShutoffTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FAWSprayShutoffTestViewController.xib; sourceTree = "<group>"; };
+		85E6581018ADBC9C00D28D8B /* FaultDescriptions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FaultDescriptions.plist; sourceTree = "<group>"; };
+		85E6581218ADBE9100D28D8B /* FAWFrozenInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAWFrozenInfoViewController.h; sourceTree = "<group>"; };
+		85E6581318ADBE9100D28D8B /* FAWFrozenInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAWFrozenInfoViewController.m; sourceTree = "<group>"; };
+		85E6581418ADBE9100D28D8B /* FAWFrozenInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FAWFrozenInfoViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		851EF0811867D21300011545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851EF08A1867D21300011545 /* CoreGraphics.framework in Frameworks */,
+				851EF08C1867D21300011545 /* UIKit.framework in Frameworks */,
+				851EF0881867D21300011545 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851EF09C1867D21300011545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851EF0A11867D21300011545 /* XCTest.framework in Frameworks */,
+				851EF0A31867D21300011545 /* UIKit.framework in Frameworks */,
+				851EF0A21867D21300011545 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		850C7EB018A9A9C4007E3E3F /* Core Comm Files */ = {
+			isa = PBXGroup;
+			children = (
+				850C7EB118A9AACE007E3E3F /* FAWBusinessLayer.h */,
+				850C7EB218A9AACE007E3E3F /* FAWBusinessLayer.m */,
+			);
+			name = "Core Comm Files";
+			sourceTree = "<group>";
+		};
+		851EF07B1867D21300011545 = {
+			isa = PBXGroup;
+			children = (
+				851EF08D1867D21300011545 /* EDC17EMS */,
+				851EF0A61867D21300011545 /* EDC17EMSTests */,
+				851EF0861867D21300011545 /* Frameworks */,
+				851EF0851867D21300011545 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		851EF0851867D21300011545 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				851EF0841867D21300011545 /* EDC17EMS.app */,
+				851EF09F1867D21300011545 /* EDC17EMSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		851EF0861867D21300011545 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				851EF0871867D21300011545 /* Foundation.framework */,
+				851EF0891867D21300011545 /* CoreGraphics.framework */,
+				851EF08B1867D21300011545 /* UIKit.framework */,
+				851EF0A01867D21300011545 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		851EF08D1867D21300011545 /* EDC17EMS */ = {
+			isa = PBXGroup;
+			children = (
+				851EF0961867D21300011545 /* FAWAppDelegate.h */,
+				851EF0971867D21300011545 /* FAWAppDelegate.m */,
+				851EF0BB1867D8BF00011545 /* View Controller Files */,
+				85A8D2E418A9EEEE00076FFA /* 3rd Component Files */,
+				8558473618ACB55000AC2AD6 /* Plist Resource Files */,
+				85A2B3771869120800BD310B /* Image Files */,
+				851EF0991867D21300011545 /* Images.xcassets */,
+				851EF08E1867D21300011545 /* Supporting Files */,
+			);
+			path = EDC17EMS;
+			sourceTree = "<group>";
+		};
+		851EF08E1867D21300011545 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				851EF08F1867D21300011545 /* EDC17EMS-Info.plist */,
+				851EF0901867D21300011545 /* InfoPlist.strings */,
+				851EF0931867D21300011545 /* main.m */,
+				851EF0951867D21300011545 /* EDC17EMS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		851EF0A61867D21300011545 /* EDC17EMSTests */ = {
+			isa = PBXGroup;
+			children = (
+				851EF0AC1867D21300011545 /* EDC17EMSTests.m */,
+				851EF0A71867D21300011545 /* Supporting Files */,
+			);
+			path = EDC17EMSTests;
+			sourceTree = "<group>";
+		};
+		851EF0A71867D21300011545 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				851EF0A81867D21300011545 /* EDC17EMSTests-Info.plist */,
+				851EF0A91867D21300011545 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		851EF0BB1867D8BF00011545 /* View Controller Files */ = {
+			isa = PBXGroup;
+			children = (
+				851EF0B61867D24400011545 /* FAWMainViewController.h */,
+				851EF0B71867D24400011545 /* FAWMainViewController.m */,
+				851EF0B81867D24400011545 /* FAWMainViewController.xib */,
+				851EF0BC1867D92700011545 /* FAWVehicleDataViewController.h */,
+				851EF0BD1867D92700011545 /* FAWVehicleDataViewController.m */,
+				851EF0BE1867D92700011545 /* FAWVehicleDataViewController.xib */,
+				851EF0C11867F41600011545 /* FAWDynamicDataViewController.h */,
+				851EF0C21867F41600011545 /* FAWDynamicDataViewController.m */,
+				851EF0C31867F41600011545 /* FAWDynamicDataViewController.xib */,
+				851EF0C61867F97400011545 /* FAWEngineDataStreamViewController.h */,
+				851EF0C71867F97400011545 /* FAWEngineDataStreamViewController.m */,
+				851EF0C81867F97400011545 /* FAWEngineDataStreamViewController.xib */,
+				851EF0CB1867FE6F00011545 /* FAWVehicleDataStreamViewController.h */,
+				851EF0CC1867FE6F00011545 /* FAWVehicleDataStreamViewController.m */,
+				851EF0CD1867FE6F00011545 /* FAWVehicleDataStreamViewController.xib */,
+				851EF0D018680B6E00011545 /* FAWAftertreatmentDataStreamViewController.h */,
+				851EF0D118680B6E00011545 /* FAWAftertreatmentDataStreamViewController.m */,
+				851EF0D218680B6E00011545 /* FAWAftertreatmentDataStreamViewController.xib */,
+				851EF0D518680F9500011545 /* FAWFaultDiagnosisViewController.h */,
+				851EF0D618680F9500011545 /* FAWFaultDiagnosisViewController.m */,
+				851EF0D718680F9500011545 /* FAWFaultDiagnosisViewController.xib */,
+				851EF0DA1868211A00011545 /* FAWExternalTestViewController.h */,
+				851EF0DB1868211A00011545 /* FAWExternalTestViewController.m */,
+				851EF0DC1868211A00011545 /* FAWExternalTestViewController.xib */,
+				851EF0DF186824A200011545 /* FAWAftertreatmentTestViewController.h */,
+				851EF0E0186824A200011545 /* FAWAftertreatmentTestViewController.m */,
+				851EF0E1186824A200011545 /* FAWAftertreatmentTestViewController.xib */,
+				8525701A18690B5B00BBE174 /* FAWROIViewController.h */,
+				8525701B18690B5B00BBE174 /* FAWROIViewController.m */,
+				8525701C18690B5B00BBE174 /* FAWROIViewController.xib */,
+				85A2B37218690E7100BD310B /* FAWLoginViewController.h */,
+				85A2B37318690E7100BD310B /* FAWLoginViewController.m */,
+				85A2B37418690E7100BD310B /* FAWLoginViewController.xib */,
+				8558473118AC904900AC2AD6 /* FAWPendingFaultViewController.h */,
+				8558473218AC904900AC2AD6 /* FAWPendingFaultViewController.m */,
+				8558473318AC904900AC2AD6 /* FAWPendingFaultViewController.xib */,
+				85E6581218ADBE9100D28D8B /* FAWFrozenInfoViewController.h */,
+				85E6581318ADBE9100D28D8B /* FAWFrozenInfoViewController.m */,
+				85E6581418ADBE9100D28D8B /* FAWFrozenInfoViewController.xib */,
+				8506AFC618ADEF4900447395 /* FAWConfirmedFaultViewController.h */,
+				8506AFC718ADEF4900447395 /* FAWConfirmedFaultViewController.m */,
+				8506AFC818ADEF4900447395 /* FAWConfirmedFaultViewController.xib */,
+				850857FB18CFF6E700C80C52 /* FAWCompressionTestViewController.h */,
+				850857FC18CFF6E700C80C52 /* FAWCompressionTestViewController.m */,
+				850857FD18CFF6E700C80C52 /* FAWCompressionTestViewController.xib */,
+				850995F018D5C0CE002D4D07 /* FAWHiPotTestViewController.h */,
+				850995F118D5C0CE002D4D07 /* FAWHiPotTestViewController.m */,
+				850995F218D5C0CE002D4D07 /* FAWHiPotTestViewController.xib */,
+				8520134E18D68B8F0045A0F5 /* FAWRunUpTestViewController.h */,
+				8520134F18D68B8F0045A0F5 /* FAWRunUpTestViewController.m */,
+				8520135018D68B8F0045A0F5 /* FAWRunUpTestViewController.xib */,
+				85D095DF18D6E2DF00113971 /* FAWSprayShutoffTestViewController.h */,
+				85D095E018D6E2DF00113971 /* FAWSprayShutoffTestViewController.m */,
+				85D095E118D6E2DF00113971 /* FAWSprayShutoffTestViewController.xib */,
+				852CCA9918D8292600055E21 /* FAWSpeedCompareTestViewController.h */,
+				852CCA9A18D8292600055E21 /* FAWSpeedCompareTestViewController.m */,
+				852CCA9B18D8292600055E21 /* FAWSpeedCompareTestViewController.xib */,
+				851E68D918DFD0E700F57E20 /* FAWStartupFaultTestViewController.h */,
+				851E68DA18DFD0E700F57E20 /* FAWStartupFaultTestViewController.m */,
+				851E68DB18DFD0E700F57E20 /* FAWStartupFaultTestViewController.xib */,
+				850C7EB018A9A9C4007E3E3F /* Core Comm Files */,
+			);
+			name = "View Controller Files";
+			sourceTree = "<group>";
+		};
+		8558473618ACB55000AC2AD6 /* Plist Resource Files */ = {
+			isa = PBXGroup;
+			children = (
+				85E6581018ADBC9C00D28D8B /* FaultDescriptions.plist */,
+			);
+			name = "Plist Resource Files";
+			sourceTree = "<group>";
+		};
+		85A2B3771869120800BD310B /* Image Files */ = {
+			isa = PBXGroup;
+			children = (
+				85A2B37A1869141300BD310B /* RadioNormal@2x.png */,
+				85A2B37B1869141300BD310B /* RadioSelected@2x.png */,
+				85A2B3781869121C00BD310B /* Background@2x.png */,
+			);
+			name = "Image Files";
+			sourceTree = "<group>";
+		};
+		85A8D2E418A9EEEE00076FFA /* 3rd Component Files */ = {
+			isa = PBXGroup;
+			children = (
+				85A8D2E518A9EEFE00076FFA /* SVProgressHUD */,
+			);
+			name = "3rd Component Files";
+			sourceTree = "<group>";
+		};
+		85A8D2E518A9EEFE00076FFA /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				85A8D2E618A9EEFE00076FFA /* SVProgressHUD-Prefix.pch */,
+				85A8D2E718A9EEFE00076FFA /* SVProgressHUD.bundle */,
+				85A8D2E818A9EEFE00076FFA /* SVProgressHUD.h */,
+				85A8D2E918A9EEFE00076FFA /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		851EF0831867D21300011545 /* EDC17EMS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 851EF0B01867D21300011545 /* Build configuration list for PBXNativeTarget "EDC17EMS" */;
+			buildPhases = (
+				851EF0801867D21300011545 /* Sources */,
+				851EF0811867D21300011545 /* Frameworks */,
+				851EF0821867D21300011545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EDC17EMS;
+			productName = EDC17EMS;
+			productReference = 851EF0841867D21300011545 /* EDC17EMS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		851EF09E1867D21300011545 /* EDC17EMSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 851EF0B31867D21300011545 /* Build configuration list for PBXNativeTarget "EDC17EMSTests" */;
+			buildPhases = (
+				851EF09B1867D21300011545 /* Sources */,
+				851EF09C1867D21300011545 /* Frameworks */,
+				851EF09D1867D21300011545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				851EF0A51867D21300011545 /* PBXTargetDependency */,
+			);
+			name = EDC17EMSTests;
+			productName = EDC17EMSTests;
+			productReference = 851EF09F1867D21300011545 /* EDC17EMSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		851EF07C1867D21300011545 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FAW;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "China FAW R&D Center";
+				TargetAttributes = {
+					851EF0831867D21300011545 = {
+						DevelopmentTeam = 9ZBKD8927Y;
+					};
+					851EF09E1867D21300011545 = {
+						TestTargetID = 851EF0831867D21300011545;
+					};
+				};
+			};
+			buildConfigurationList = 851EF07F1867D21300011545 /* Build configuration list for PBXProject "EDC17EMS" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 851EF07B1867D21300011545;
+			productRefGroup = 851EF0851867D21300011545 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				851EF0831867D21300011545 /* EDC17EMS */,
+				851EF09E1867D21300011545 /* EDC17EMSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		851EF0821867D21300011545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8525701E18690B5B00BBE174 /* FAWROIViewController.xib in Resources */,
+				85D095E318D6E2DF00113971 /* FAWSprayShutoffTestViewController.xib in Resources */,
+				850995F418D5C0CE002D4D07 /* FAWHiPotTestViewController.xib in Resources */,
+				85E6581618ADBE9100D28D8B /* FAWFrozenInfoViewController.xib in Resources */,
+				851EF0C51867F41600011545 /* FAWDynamicDataViewController.xib in Resources */,
+				851E68DD18DFD0E700F57E20 /* FAWStartupFaultTestViewController.xib in Resources */,
+				85A8D2EA18A9EEFE00076FFA /* SVProgressHUD.bundle in Resources */,
+				850857FF18CFF6E700C80C52 /* FAWCompressionTestViewController.xib in Resources */,
+				851EF0C01867D92700011545 /* FAWVehicleDataViewController.xib in Resources */,
+				85E6581118ADBC9C00D28D8B /* FaultDescriptions.plist in Resources */,
+				85A2B37618690E7100BD310B /* FAWLoginViewController.xib in Resources */,
+				851EF0921867D21300011545 /* InfoPlist.strings in Resources */,
+				851EF09A1867D21300011545 /* Images.xcassets in Resources */,
+				851EF0BA1867D24400011545 /* FAWMainViewController.xib in Resources */,
+				85A2B37C1869141300BD310B /* RadioNormal@2x.png in Resources */,
+				851EF0CF1867FE6F00011545 /* FAWVehicleDataStreamViewController.xib in Resources */,
+				852CCA9D18D8292600055E21 /* FAWSpeedCompareTestViewController.xib in Resources */,
+				8520135218D68B8F0045A0F5 /* FAWRunUpTestViewController.xib in Resources */,
+				8558473518AC904900AC2AD6 /* FAWPendingFaultViewController.xib in Resources */,
+				85A2B37D1869141300BD310B /* RadioSelected@2x.png in Resources */,
+				85A2B3791869121C00BD310B /* Background@2x.png in Resources */,
+				851EF0CA1867F97400011545 /* FAWEngineDataStreamViewController.xib in Resources */,
+				851EF0D918680F9500011545 /* FAWFaultDiagnosisViewController.xib in Resources */,
+				8506AFCA18ADEF4900447395 /* FAWConfirmedFaultViewController.xib in Resources */,
+				851EF0DE1868211A00011545 /* FAWExternalTestViewController.xib in Resources */,
+				851EF0E3186824A200011545 /* FAWAftertreatmentTestViewController.xib in Resources */,
+				851EF0D418680B6E00011545 /* FAWAftertreatmentDataStreamViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851EF09D1867D21300011545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851EF0AB1867D21300011545 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		851EF0801867D21300011545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851EF0BF1867D92700011545 /* FAWVehicleDataViewController.m in Sources */,
+				851EF0B91867D24400011545 /* FAWMainViewController.m in Sources */,
+				851E68DC18DFD0E700F57E20 /* FAWStartupFaultTestViewController.m in Sources */,
+				85A8D2EB18A9EEFE00076FFA /* SVProgressHUD.m in Sources */,
+				851EF0DD1868211A00011545 /* FAWExternalTestViewController.m in Sources */,
+				851EF0E2186824A200011545 /* FAWAftertreatmentTestViewController.m in Sources */,
+				8525701D18690B5B00BBE174 /* FAWROIViewController.m in Sources */,
+				8520135118D68B8F0045A0F5 /* FAWRunUpTestViewController.m in Sources */,
+				851EF0D818680F9500011545 /* FAWFaultDiagnosisViewController.m in Sources */,
+				85A2B37518690E7100BD310B /* FAWLoginViewController.m in Sources */,
+				8558473418AC904900AC2AD6 /* FAWPendingFaultViewController.m in Sources */,
+				851EF0941867D21300011545 /* main.m in Sources */,
+				851EF0C41867F41600011545 /* FAWDynamicDataViewController.m in Sources */,
+				851EF0981867D21300011545 /* FAWAppDelegate.m in Sources */,
+				851EF0C91867F97400011545 /* FAWEngineDataStreamViewController.m in Sources */,
+				85E6581518ADBE9100D28D8B /* FAWFrozenInfoViewController.m in Sources */,
+				852CCA9C18D8292600055E21 /* FAWSpeedCompareTestViewController.m in Sources */,
+				850C7EB318A9AACE007E3E3F /* FAWBusinessLayer.m in Sources */,
+				851EF0CE1867FE6F00011545 /* FAWVehicleDataStreamViewController.m in Sources */,
+				85D095E218D6E2DF00113971 /* FAWSprayShutoffTestViewController.m in Sources */,
+				850995F318D5C0CE002D4D07 /* FAWHiPotTestViewController.m in Sources */,
+				8506AFC918ADEF4900447395 /* FAWConfirmedFaultViewController.m in Sources */,
+				850857FE18CFF6E700C80C52 /* FAWCompressionTestViewController.m in Sources */,
+				851EF0D318680B6E00011545 /* FAWAftertreatmentDataStreamViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851EF09B1867D21300011545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851EF0AD1867D21300011545 /* EDC17EMSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		851EF0A51867D21300011545 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 851EF0831867D21300011545 /* EDC17EMS */;
+			targetProxy = 851EF0A41867D21300011545 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		851EF0901867D21300011545 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				851EF0911867D21300011545 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		851EF0A91867D21300011545 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				851EF0AA1867D21300011545 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		851EF0AE1867D21300011545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		851EF0AF1867D21300011545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		851EF0B11867D21300011545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EDC17EMS/EDC17EMS-Prefix.pch";
+				INFOPLIST_FILE = "EDC17EMS/EDC17EMS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		851EF0B21867D21300011545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EDC17EMS/EDC17EMS-Prefix.pch";
+				INFOPLIST_FILE = "EDC17EMS/EDC17EMS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		851EF0B41867D21300011545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EDC17EMS.app/EDC17EMS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EDC17EMS/EDC17EMS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EDC17EMSTests/EDC17EMSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		851EF0B51867D21300011545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EDC17EMS.app/EDC17EMS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EDC17EMS/EDC17EMS-Prefix.pch";
+				INFOPLIST_FILE = "EDC17EMSTests/EDC17EMSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		851EF07F1867D21300011545 /* Build configuration list for PBXProject "EDC17EMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851EF0AE1867D21300011545 /* Debug */,
+				851EF0AF1867D21300011545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		851EF0B01867D21300011545 /* Build configuration list for PBXNativeTarget "EDC17EMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851EF0B11867D21300011545 /* Debug */,
+				851EF0B21867D21300011545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		851EF0B31867D21300011545 /* Build configuration list for PBXNativeTarget "EDC17EMSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851EF0B41867D21300011545 /* Debug */,
+				851EF0B51867D21300011545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 851EF07C1867D21300011545 /* Project object */;
+}
